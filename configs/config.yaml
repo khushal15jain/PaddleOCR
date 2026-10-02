@@ -1,0 +1,40 @@
+dataset:
+  image_dir: data/raw/images
+  ground_truth_dir: data/ground_truth
+  annotations_dir: data/annotations
+  metadata_file: data/metadata.csv
+
+engines:
+  - paddleocr
+  - tesseract
+
+paddleocr:
+  lang: "fr"
+  # PaddleOCR >=3.0 replaced the legacy .ocr(cls=...) call with .predict().
+  # These two flags keep the pipeline fast on CPU-only machines; set both to
+  # true if your scans are rotated/skewed.
+  use_doc_orientation_classify: false
+  use_doc_unwarping: false
+  use_textline_orientation: false
+
+tesseract:
+  language: "fra"
+  psm: 3
+  oem: 1
+
+evaluation:
+  modes:
+    - strict
+    - normalized
+
+statistics:
+  alpha: 0.05
+  bootstrap_iterations: 1000
+
+reproducibility:
+  seed: 42
+
+runtime:
+  repeats: 1
+
+output_dir: outputs
