@@ -1,0 +1,382 @@
+[
+  {
+    "image_id": "IMG_021",
+    "word_id": "w_2_1",
+    "transcription": "LOCAL",
+    "x_min": 180,
+    "y_min": 272,
+    "x_max": 304,
+    "y_max": 297,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_021",
+    "word_id": "w_2_2",
+    "transcription": "NEWS",
+    "x_min": 322,
+    "y_min": 272,
+    "x_max": 435,
+    "y_max": 297,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_021",
+    "word_id": "w_2_3",
+    "transcription": "FROM",
+    "x_min": 453,
+    "y_min": 272,
+    "x_max": 565,
+    "y_max": 297,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_021",
+    "word_id": "w_2_4",
+    "transcription": "LEEDS",
+    "x_min": 583,
+    "y_min": 272,
+    "x_max": 706,
+    "y_max": 297,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_021",
+    "word_id": "w_3_1",
+    "transcription": "MARKET",
+    "x_min": 180,
+    "y_min": 422,
+    "x_max": 338,
+    "y_max": 447,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_021",
+    "word_id": "w_3_2",
+    "transcription": "REPORT",
+    "x_min": 356,
+    "y_min": 422,
+    "x_max": 505,
+    "y_max": 447,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_021",
+    "word_id": "w_4_1",
+    "transcription": "Prices",
+    "x_min": 180,
+    "y_min": 571,
+    "x_max": 287,
+    "y_max": 597,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_021",
+    "word_id": "w_4_2",
+    "transcription": "remained",
+    "x_min": 305,
+    "y_min": 571,
+    "x_max": 469,
+    "y_max": 597,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_021",
+    "word_id": "w_4_3",
+    "transcription": "steady",
+    "x_min": 487,
+    "y_min": 571,
+    "x_max": 600,
+    "y_max": 604,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_021",
+    "word_id": "w_4_4",
+    "transcription": "this",
+    "x_min": 618,
+    "y_min": 571,
+    "x_max": 682,
+    "y_max": 597,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_021",
+    "word_id": "w_4_5",
+    "transcription": "week,",
+    "x_min": 700,
+    "y_min": 571,
+    "x_max": 801,
+    "y_max": 601,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_021",
+    "word_id": "w_4_6",
+    "transcription": "with",
+    "x_min": 819,
+    "y_min": 571,
+    "x_max": 895,
+    "y_max": 597,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_021",
+    "word_id": "w_4_7",
+    "transcription": "merchants",
+    "x_min": 913,
+    "y_min": 571,
+    "x_max": 1096,
+    "y_max": 597,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_021",
+    "word_id": "w_4_8",
+    "transcription": "reporting",
+    "x_min": 1114,
+    "y_min": 571,
+    "x_max": 1277,
+    "y_max": 604,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_021",
+    "word_id": "w_4_9",
+    "transcription": "good",
+    "x_min": 1295,
+    "y_min": 571,
+    "x_max": 1379,
+    "y_max": 604,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_021",
+    "word_id": "w_4_10",
+    "transcription": "trade.",
+    "x_min": 1397,
+    "y_min": 571,
+    "x_max": 1500,
+    "y_max": 597,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_021",
+    "word_id": "w_5_1",
+    "transcription": "A",
+    "x_min": 179,
+    "y_min": 722,
+    "x_max": 205,
+    "y_max": 747,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_021",
+    "word_id": "w_5_2",
+    "transcription": "meeting",
+    "x_min": 223,
+    "y_min": 721,
+    "x_max": 364,
+    "y_max": 754,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_021",
+    "word_id": "w_5_3",
+    "transcription": "was",
+    "x_min": 382,
+    "y_min": 729,
+    "x_max": 449,
+    "y_max": 747,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_021",
+    "word_id": "w_5_4",
+    "transcription": "held",
+    "x_min": 467,
+    "y_min": 721,
+    "x_max": 542,
+    "y_max": 747,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_021",
+    "word_id": "w_5_5",
+    "transcription": "at",
+    "x_min": 560,
+    "y_min": 724,
+    "x_max": 594,
+    "y_max": 747,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_021",
+    "word_id": "w_5_6",
+    "transcription": "the",
+    "x_min": 612,
+    "y_min": 721,
+    "x_max": 668,
+    "y_max": 747,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_021",
+    "word_id": "w_5_7",
+    "transcription": "town",
+    "x_min": 686,
+    "y_min": 724,
+    "x_max": 771,
+    "y_max": 747,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_021",
+    "word_id": "w_5_8",
+    "transcription": "hall",
+    "x_min": 789,
+    "y_min": 721,
+    "x_max": 853,
+    "y_max": 747,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_021",
+    "word_id": "w_5_9",
+    "transcription": "concerning",
+    "x_min": 871,
+    "y_min": 721,
+    "x_max": 1064,
+    "y_max": 754,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_021",
+    "word_id": "w_5_10",
+    "transcription": "the",
+    "x_min": 1082,
+    "y_min": 721,
+    "x_max": 1138,
+    "y_max": 747,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_021",
+    "word_id": "w_5_11",
+    "transcription": "new",
+    "x_min": 1156,
+    "y_min": 729,
+    "x_max": 1227,
+    "y_max": 747,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_021",
+    "word_id": "w_5_12",
+    "transcription": "railway",
+    "x_min": 1245,
+    "y_min": 721,
+    "x_max": 1373,
+    "y_max": 754,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_021",
+    "word_id": "w_5_13",
+    "transcription": "service.",
+    "x_min": 1391,
+    "y_min": 721,
+    "x_max": 1525,
+    "y_max": 747,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_021",
+    "word_id": "w_6_1",
+    "transcription": "Weather:",
+    "x_min": 180,
+    "y_min": 871,
+    "x_max": 336,
+    "y_max": 897,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_021",
+    "word_id": "w_6_2",
+    "transcription": "light",
+    "x_min": 354,
+    "y_min": 871,
+    "x_max": 433,
+    "y_max": 904,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_021",
+    "word_id": "w_6_3",
+    "transcription": "rain",
+    "x_min": 451,
+    "y_min": 871,
+    "x_max": 520,
+    "y_max": 897,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_021",
+    "word_id": "w_6_4",
+    "transcription": "in",
+    "x_min": 538,
+    "y_min": 871,
+    "x_max": 571,
+    "y_max": 897,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_021",
+    "word_id": "w_6_5",
+    "transcription": "the",
+    "x_min": 589,
+    "y_min": 871,
+    "x_max": 645,
+    "y_max": 897,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_021",
+    "word_id": "w_6_6",
+    "transcription": "morning,",
+    "x_min": 663,
+    "y_min": 871,
+    "x_max": 819,
+    "y_max": 904,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_021",
+    "word_id": "w_6_7",
+    "transcription": "clearing",
+    "x_min": 837,
+    "y_min": 871,
+    "x_max": 978,
+    "y_max": 904,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_021",
+    "word_id": "w_6_8",
+    "transcription": "by",
+    "x_min": 996,
+    "y_min": 871,
+    "x_max": 1038,
+    "y_max": 904,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_021",
+    "word_id": "w_6_9",
+    "transcription": "afternoon.",
+    "x_min": 1056,
+    "y_min": 871,
+    "x_max": 1234,
+    "y_max": 897,
+    "confidence": 1.0
+  }
+]

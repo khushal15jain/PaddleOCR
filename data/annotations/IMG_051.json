@@ -1,0 +1,232 @@
+[
+  {
+    "image_id": "IMG_051",
+    "word_id": "w_2_1",
+    "transcription": "Parish:",
+    "x_min": 180,
+    "y_min": 271,
+    "x_max": 300,
+    "y_max": 297,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_051",
+    "word_id": "w_2_2",
+    "transcription": "All",
+    "x_min": 317,
+    "y_min": 271,
+    "x_max": 364,
+    "y_max": 297,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_051",
+    "word_id": "w_2_3",
+    "transcription": "Saints",
+    "x_min": 382,
+    "y_min": 271,
+    "x_max": 489,
+    "y_max": 297,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_051",
+    "word_id": "w_2_4",
+    "transcription": "Parish",
+    "x_min": 507,
+    "y_min": 271,
+    "x_max": 615,
+    "y_max": 297,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_051",
+    "word_id": "w_3_1",
+    "transcription": "Date:",
+    "x_min": 180,
+    "y_min": 422,
+    "x_max": 273,
+    "y_max": 447,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_051",
+    "word_id": "w_3_2",
+    "transcription": "17",
+    "x_min": 291,
+    "y_min": 422,
+    "x_max": 334,
+    "y_max": 447,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_051",
+    "word_id": "w_3_3",
+    "transcription": "June",
+    "x_min": 349,
+    "y_min": 422,
+    "x_max": 430,
+    "y_max": 454,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_051",
+    "word_id": "w_3_4",
+    "transcription": "1885",
+    "x_min": 448,
+    "y_min": 422,
+    "x_max": 535,
+    "y_max": 447,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_051",
+    "word_id": "w_4_1",
+    "transcription": "Groom:",
+    "x_min": 180,
+    "y_min": 572,
+    "x_max": 308,
+    "y_max": 597,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_051",
+    "word_id": "w_4_2",
+    "transcription": "Eleanor",
+    "x_min": 326,
+    "y_min": 571,
+    "x_max": 461,
+    "y_max": 597,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_051",
+    "word_id": "w_4_3",
+    "transcription": "Smith",
+    "x_min": 479,
+    "y_min": 571,
+    "x_max": 581,
+    "y_max": 597,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_051",
+    "word_id": "w_5_1",
+    "transcription": "Bride:",
+    "x_min": 180,
+    "y_min": 721,
+    "x_max": 285,
+    "y_max": 747,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_051",
+    "word_id": "w_5_2",
+    "transcription": "Henry",
+    "x_min": 303,
+    "y_min": 722,
+    "x_max": 411,
+    "y_max": 754,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_051",
+    "word_id": "w_5_3",
+    "transcription": "Davis",
+    "x_min": 429,
+    "y_min": 721,
+    "x_max": 524,
+    "y_max": 747,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_051",
+    "word_id": "w_6_1",
+    "transcription": "Residence:",
+    "x_min": 180,
+    "y_min": 871,
+    "x_max": 368,
+    "y_max": 897,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_051",
+    "word_id": "w_6_2",
+    "transcription": "Bristol",
+    "x_min": 386,
+    "y_min": 871,
+    "x_max": 501,
+    "y_max": 897,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_051",
+    "word_id": "w_7_1",
+    "transcription": "Occupation:",
+    "x_min": 180,
+    "y_min": 1021,
+    "x_max": 388,
+    "y_max": 1054,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_051",
+    "word_id": "w_7_2",
+    "transcription": "baker",
+    "x_min": 406,
+    "y_min": 1021,
+    "x_max": 506,
+    "y_max": 1047,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_051",
+    "word_id": "w_8_1",
+    "transcription": "Witnesses:",
+    "x_min": 180,
+    "y_min": 1171,
+    "x_max": 365,
+    "y_max": 1197,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_051",
+    "word_id": "w_8_2",
+    "transcription": "Thomas",
+    "x_min": 383,
+    "y_min": 1171,
+    "x_max": 518,
+    "y_max": 1197,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_051",
+    "word_id": "w_8_3",
+    "transcription": "Green;",
+    "x_min": 536,
+    "y_min": 1172,
+    "x_max": 653,
+    "y_max": 1201,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_051",
+    "word_id": "w_8_4",
+    "transcription": "Elizabeth",
+    "x_min": 671,
+    "y_min": 1171,
+    "x_max": 833,
+    "y_max": 1197,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_051",
+    "word_id": "w_8_5",
+    "transcription": "Green",
+    "x_min": 851,
+    "y_min": 1172,
+    "x_max": 957,
+    "y_max": 1197,
+    "confidence": 1.0
+  }
+]

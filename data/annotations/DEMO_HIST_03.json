@@ -1,0 +1,852 @@
+[
+  {
+    "image_id": "DEMO_HIST_03",
+    "word_id": "w_0",
+    "transcription": "JOURNAL",
+    "x_min": 134,
+    "y_min": 45,
+    "x_max": 241,
+    "y_max": 66,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "DEMO_HIST_03",
+    "word_id": "w_1",
+    "transcription": "DES",
+    "x_min": 247,
+    "y_min": 45,
+    "x_max": 290,
+    "y_max": 64,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "DEMO_HIST_03",
+    "word_id": "w_2",
+    "transcription": "SAVANTS",
+    "x_min": 296,
+    "y_min": 45,
+    "x_max": 393,
+    "y_max": 64,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "DEMO_HIST_03",
+    "word_id": "w_3",
+    "transcription": "—",
+    "x_min": 399,
+    "y_min": 45,
+    "x_max": 421,
+    "y_max": 55,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "DEMO_HIST_03",
+    "word_id": "w_4",
+    "transcription": "ÉDITION",
+    "x_min": 427,
+    "y_min": 45,
+    "x_max": 522,
+    "y_max": 69,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "DEMO_HIST_03",
+    "word_id": "w_5",
+    "transcription": "HISTORIQUE",
+    "x_min": 528,
+    "y_min": 45,
+    "x_max": 670,
+    "y_max": 67,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "DEMO_HIST_03",
+    "word_id": "w_6",
+    "transcription": "Tome",
+    "x_min": 219,
+    "y_min": 81,
+    "x_max": 249,
+    "y_max": 93,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "DEMO_HIST_03",
+    "word_id": "w_7",
+    "transcription": "III.",
+    "x_min": 252,
+    "y_min": 81,
+    "x_max": 268,
+    "y_max": 93,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "DEMO_HIST_03",
+    "word_id": "w_8",
+    "transcription": "—",
+    "x_min": 271,
+    "y_min": 81,
+    "x_max": 284,
+    "y_max": 88,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "DEMO_HIST_03",
+    "word_id": "w_9",
+    "transcription": "Mémoires",
+    "x_min": 287,
+    "y_min": 81,
+    "x_max": 340,
+    "y_max": 93,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "DEMO_HIST_03",
+    "word_id": "w_10",
+    "transcription": "d'Histoire",
+    "x_min": 343,
+    "y_min": 81,
+    "x_max": 394,
+    "y_max": 93,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "DEMO_HIST_03",
+    "word_id": "w_11",
+    "transcription": "et",
+    "x_min": 397,
+    "y_min": 81,
+    "x_max": 407,
+    "y_max": 92,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "DEMO_HIST_03",
+    "word_id": "w_12",
+    "transcription": "de",
+    "x_min": 410,
+    "y_min": 81,
+    "x_max": 423,
+    "y_max": 93,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "DEMO_HIST_03",
+    "word_id": "w_13",
+    "transcription": "Typographie",
+    "x_min": 426,
+    "y_min": 81,
+    "x_max": 492,
+    "y_max": 96,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "DEMO_HIST_03",
+    "word_id": "w_14",
+    "transcription": "Ancienne",
+    "x_min": 495,
+    "y_min": 81,
+    "x_max": 545,
+    "y_max": 93,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "DEMO_HIST_03",
+    "word_id": "w_15",
+    "transcription": "(1815)",
+    "x_min": 548,
+    "y_min": 81,
+    "x_max": 583,
+    "y_max": 96,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "DEMO_HIST_03",
+    "word_id": "w_16",
+    "transcription": "L'examen",
+    "x_min": 50,
+    "y_min": 125,
+    "x_max": 109,
+    "y_max": 139,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "DEMO_HIST_03",
+    "word_id": "w_17",
+    "transcription": "attentif",
+    "x_min": 113,
+    "y_min": 125,
+    "x_max": 157,
+    "y_max": 139,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "DEMO_HIST_03",
+    "word_id": "w_18",
+    "transcription": "des",
+    "x_min": 161,
+    "y_min": 125,
+    "x_max": 181,
+    "y_max": 139,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "DEMO_HIST_03",
+    "word_id": "w_19",
+    "transcription": "caractères",
+    "x_min": 185,
+    "y_min": 125,
+    "x_max": 245,
+    "y_max": 140,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "DEMO_HIST_03",
+    "word_id": "w_20",
+    "transcription": "mobiles",
+    "x_min": 249,
+    "y_min": 125,
+    "x_max": 297,
+    "y_max": 139,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "DEMO_HIST_03",
+    "word_id": "w_21",
+    "transcription": "anciens",
+    "x_min": 301,
+    "y_min": 125,
+    "x_max": 346,
+    "y_max": 139,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "DEMO_HIST_03",
+    "word_id": "w_22",
+    "transcription": "démontre",
+    "x_min": 350,
+    "y_min": 125,
+    "x_max": 407,
+    "y_max": 140,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "DEMO_HIST_03",
+    "word_id": "w_23",
+    "transcription": "que",
+    "x_min": 411,
+    "y_min": 125,
+    "x_max": 433,
+    "y_max": 139,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "DEMO_HIST_03",
+    "word_id": "w_24",
+    "transcription": "la",
+    "x_min": 437,
+    "y_min": 125,
+    "x_max": 448,
+    "y_max": 139,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "DEMO_HIST_03",
+    "word_id": "w_25",
+    "transcription": "typographie",
+    "x_min": 452,
+    "y_min": 125,
+    "x_max": 524,
+    "y_max": 142,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "DEMO_HIST_03",
+    "word_id": "w_26",
+    "transcription": "du",
+    "x_min": 528,
+    "y_min": 125,
+    "x_max": 544,
+    "y_max": 139,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "DEMO_HIST_03",
+    "word_id": "w_27",
+    "transcription": "dix-huitième",
+    "x_min": 548,
+    "y_min": 125,
+    "x_max": 625,
+    "y_max": 140,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "DEMO_HIST_03",
+    "word_id": "w_28",
+    "transcription": "siècle",
+    "x_min": 629,
+    "y_min": 125,
+    "x_max": 664,
+    "y_max": 140,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "DEMO_HIST_03",
+    "word_id": "w_29",
+    "transcription": "possédait",
+    "x_min": 668,
+    "y_min": 125,
+    "x_max": 725,
+    "y_max": 143,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "DEMO_HIST_03",
+    "word_id": "w_30",
+    "transcription": "une",
+    "x_min": 50,
+    "y_min": 149,
+    "x_max": 72,
+    "y_max": 160,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "DEMO_HIST_03",
+    "word_id": "w_31",
+    "transcription": "clarté",
+    "x_min": 76,
+    "y_min": 149,
+    "x_max": 110,
+    "y_max": 164,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "DEMO_HIST_03",
+    "word_id": "w_32",
+    "transcription": "remarquable.",
+    "x_min": 114,
+    "y_min": 149,
+    "x_max": 193,
+    "y_max": 166,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "DEMO_HIST_03",
+    "word_id": "w_33",
+    "transcription": "Les",
+    "x_min": 50,
+    "y_min": 185,
+    "x_max": 72,
+    "y_max": 199,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "DEMO_HIST_03",
+    "word_id": "w_34",
+    "transcription": "encres",
+    "x_min": 76,
+    "y_min": 185,
+    "x_max": 114,
+    "y_max": 196,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "DEMO_HIST_03",
+    "word_id": "w_35",
+    "transcription": "minérales",
+    "x_min": 118,
+    "y_min": 185,
+    "x_max": 176,
+    "y_max": 200,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "DEMO_HIST_03",
+    "word_id": "w_36",
+    "transcription": "appliquées",
+    "x_min": 180,
+    "y_min": 185,
+    "x_max": 244,
+    "y_max": 203,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "DEMO_HIST_03",
+    "word_id": "w_37",
+    "transcription": "sur",
+    "x_min": 248,
+    "y_min": 185,
+    "x_max": 267,
+    "y_max": 196,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "DEMO_HIST_03",
+    "word_id": "w_38",
+    "transcription": "papier",
+    "x_min": 271,
+    "y_min": 185,
+    "x_max": 309,
+    "y_max": 202,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "DEMO_HIST_03",
+    "word_id": "w_39",
+    "transcription": "chiffon",
+    "x_min": 313,
+    "y_min": 185,
+    "x_max": 357,
+    "y_max": 199,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "DEMO_HIST_03",
+    "word_id": "w_40",
+    "transcription": "conféraient",
+    "x_min": 361,
+    "y_min": 185,
+    "x_max": 429,
+    "y_max": 200,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "DEMO_HIST_03",
+    "word_id": "w_41",
+    "transcription": "aux",
+    "x_min": 433,
+    "y_min": 185,
+    "x_max": 455,
+    "y_max": 196,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "DEMO_HIST_03",
+    "word_id": "w_42",
+    "transcription": "feuillets",
+    "x_min": 459,
+    "y_min": 185,
+    "x_max": 508,
+    "y_max": 199,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "DEMO_HIST_03",
+    "word_id": "w_43",
+    "transcription": "une",
+    "x_min": 512,
+    "y_min": 185,
+    "x_max": 534,
+    "y_max": 196,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "DEMO_HIST_03",
+    "word_id": "w_44",
+    "transcription": "durabilité",
+    "x_min": 538,
+    "y_min": 185,
+    "x_max": 596,
+    "y_max": 200,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "DEMO_HIST_03",
+    "word_id": "w_45",
+    "transcription": "très",
+    "x_min": 600,
+    "y_min": 185,
+    "x_max": 622,
+    "y_max": 200,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "DEMO_HIST_03",
+    "word_id": "w_46",
+    "transcription": "supérieure",
+    "x_min": 626,
+    "y_min": 185,
+    "x_max": 689,
+    "y_max": 203,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "DEMO_HIST_03",
+    "word_id": "w_47",
+    "transcription": "à",
+    "x_min": 693,
+    "y_min": 185,
+    "x_max": 700,
+    "y_max": 201,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "DEMO_HIST_03",
+    "word_id": "w_48",
+    "transcription": "celle",
+    "x_min": 704,
+    "y_min": 185,
+    "x_max": 733,
+    "y_max": 199,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "DEMO_HIST_03",
+    "word_id": "w_49",
+    "transcription": "des",
+    "x_min": 50,
+    "y_min": 209,
+    "x_max": 70,
+    "y_max": 223,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "DEMO_HIST_03",
+    "word_id": "w_50",
+    "transcription": "procédés",
+    "x_min": 74,
+    "y_min": 209,
+    "x_max": 127,
+    "y_max": 227,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "DEMO_HIST_03",
+    "word_id": "w_51",
+    "transcription": "contemporains.",
+    "x_min": 131,
+    "y_min": 209,
+    "x_max": 223,
+    "y_max": 226,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "DEMO_HIST_03",
+    "word_id": "w_52",
+    "transcription": "La",
+    "x_min": 50,
+    "y_min": 245,
+    "x_max": 66,
+    "y_max": 259,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "DEMO_HIST_03",
+    "word_id": "w_53",
+    "transcription": "restitution",
+    "x_min": 70,
+    "y_min": 245,
+    "x_max": 131,
+    "y_max": 259,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "DEMO_HIST_03",
+    "word_id": "w_54",
+    "transcription": "automatique",
+    "x_min": 135,
+    "y_min": 245,
+    "x_max": 210,
+    "y_max": 262,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "DEMO_HIST_03",
+    "word_id": "w_55",
+    "transcription": "de",
+    "x_min": 214,
+    "y_min": 245,
+    "x_max": 229,
+    "y_max": 259,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "DEMO_HIST_03",
+    "word_id": "w_56",
+    "transcription": "ces",
+    "x_min": 233,
+    "y_min": 245,
+    "x_max": 252,
+    "y_max": 256,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "DEMO_HIST_03",
+    "word_id": "w_57",
+    "transcription": "textes",
+    "x_min": 256,
+    "y_min": 245,
+    "x_max": 291,
+    "y_max": 258,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "DEMO_HIST_03",
+    "word_id": "w_58",
+    "transcription": "par",
+    "x_min": 295,
+    "y_min": 245,
+    "x_max": 315,
+    "y_max": 259,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "DEMO_HIST_03",
+    "word_id": "w_59",
+    "transcription": "reconnaissance",
+    "x_min": 319,
+    "y_min": 245,
+    "x_max": 410,
+    "y_max": 259,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "DEMO_HIST_03",
+    "word_id": "w_60",
+    "transcription": "optique",
+    "x_min": 414,
+    "y_min": 245,
+    "x_max": 459,
+    "y_max": 262,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "DEMO_HIST_03",
+    "word_id": "w_61",
+    "transcription": "nécessite",
+    "x_min": 463,
+    "y_min": 245,
+    "x_max": 518,
+    "y_max": 260,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "DEMO_HIST_03",
+    "word_id": "w_62",
+    "transcription": "des",
+    "x_min": 522,
+    "y_min": 245,
+    "x_max": 542,
+    "y_max": 259,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "DEMO_HIST_03",
+    "word_id": "w_63",
+    "transcription": "modèles",
+    "x_min": 546,
+    "y_min": 245,
+    "x_max": 596,
+    "y_max": 260,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "DEMO_HIST_03",
+    "word_id": "w_64",
+    "transcription": "robustes",
+    "x_min": 600,
+    "y_min": 245,
+    "x_max": 650,
+    "y_max": 259,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "DEMO_HIST_03",
+    "word_id": "w_65",
+    "transcription": "aux",
+    "x_min": 654,
+    "y_min": 245,
+    "x_max": 676,
+    "y_max": 256,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "DEMO_HIST_03",
+    "word_id": "w_66",
+    "transcription": "déformations",
+    "x_min": 50,
+    "y_min": 269,
+    "x_max": 129,
+    "y_max": 284,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "DEMO_HIST_03",
+    "word_id": "w_67",
+    "transcription": "du",
+    "x_min": 133,
+    "y_min": 269,
+    "x_max": 149,
+    "y_max": 283,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "DEMO_HIST_03",
+    "word_id": "w_68",
+    "transcription": "parchemin",
+    "x_min": 153,
+    "y_min": 269,
+    "x_max": 217,
+    "y_max": 286,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "DEMO_HIST_03",
+    "word_id": "w_69",
+    "transcription": "et",
+    "x_min": 221,
+    "y_min": 269,
+    "x_max": 233,
+    "y_max": 282,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "DEMO_HIST_03",
+    "word_id": "w_70",
+    "transcription": "à",
+    "x_min": 237,
+    "y_min": 269,
+    "x_max": 244,
+    "y_max": 285,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "DEMO_HIST_03",
+    "word_id": "w_71",
+    "transcription": "l'altération",
+    "x_min": 248,
+    "y_min": 269,
+    "x_max": 312,
+    "y_max": 284,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "DEMO_HIST_03",
+    "word_id": "w_72",
+    "transcription": "séculaire",
+    "x_min": 316,
+    "y_min": 269,
+    "x_max": 370,
+    "y_max": 284,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "DEMO_HIST_03",
+    "word_id": "w_73",
+    "transcription": "des",
+    "x_min": 374,
+    "y_min": 269,
+    "x_max": 394,
+    "y_max": 283,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "DEMO_HIST_03",
+    "word_id": "w_74",
+    "transcription": "pigments",
+    "x_min": 398,
+    "y_min": 269,
+    "x_max": 453,
+    "y_max": 286,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "DEMO_HIST_03",
+    "word_id": "w_75",
+    "transcription": "d'impression.",
+    "x_min": 457,
+    "y_min": 269,
+    "x_max": 537,
+    "y_max": 286,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "DEMO_HIST_03",
+    "word_id": "w_76",
+    "transcription": "Publié",
+    "x_min": 242,
+    "y_min": 330,
+    "x_max": 275,
+    "y_max": 342,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "DEMO_HIST_03",
+    "word_id": "w_77",
+    "transcription": "sous",
+    "x_min": 278,
+    "y_min": 330,
+    "x_max": 301,
+    "y_max": 339,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "DEMO_HIST_03",
+    "word_id": "w_78",
+    "transcription": "les",
+    "x_min": 304,
+    "y_min": 330,
+    "x_max": 318,
+    "y_max": 342,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "DEMO_HIST_03",
+    "word_id": "w_79",
+    "transcription": "auspices",
+    "x_min": 321,
+    "y_min": 330,
+    "x_max": 365,
+    "y_max": 345,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "DEMO_HIST_03",
+    "word_id": "w_80",
+    "transcription": "de",
+    "x_min": 368,
+    "y_min": 330,
+    "x_max": 381,
+    "y_max": 342,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "DEMO_HIST_03",
+    "word_id": "w_81",
+    "transcription": "l'Académie",
+    "x_min": 384,
+    "y_min": 330,
+    "x_max": 443,
+    "y_max": 342,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "DEMO_HIST_03",
+    "word_id": "w_82",
+    "transcription": "Royale",
+    "x_min": 446,
+    "y_min": 330,
+    "x_max": 483,
+    "y_max": 345,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "DEMO_HIST_03",
+    "word_id": "w_83",
+    "transcription": "des",
+    "x_min": 486,
+    "y_min": 330,
+    "x_max": 503,
+    "y_max": 342,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "DEMO_HIST_03",
+    "word_id": "w_84",
+    "transcription": "Sciences.",
+    "x_min": 506,
+    "y_min": 330,
+    "x_max": 555,
+    "y_max": 342,
+    "confidence": 1.0
+  }
+]

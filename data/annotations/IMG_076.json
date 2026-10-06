@@ -1,0 +1,282 @@
+[
+  {
+    "image_id": "IMG_076",
+    "word_id": "w_2_1",
+    "transcription": "Thomas",
+    "x_min": 180,
+    "y_min": 271,
+    "x_max": 315,
+    "y_max": 297,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_076",
+    "word_id": "w_2_2",
+    "transcription": "Bennett",
+    "x_min": 333,
+    "y_min": 272,
+    "x_max": 470,
+    "y_max": 297,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_076",
+    "word_id": "w_3_1",
+    "transcription": "Died",
+    "x_min": 180,
+    "y_min": 421,
+    "x_max": 260,
+    "y_max": 447,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_076",
+    "word_id": "w_3_2",
+    "transcription": "at",
+    "x_min": 278,
+    "y_min": 424,
+    "x_max": 312,
+    "y_max": 447,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_076",
+    "word_id": "w_3_3",
+    "transcription": "Norfolk,",
+    "x_min": 330,
+    "y_min": 421,
+    "x_max": 472,
+    "y_max": 451,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_076",
+    "word_id": "w_3_4",
+    "transcription": "3",
+    "x_min": 490,
+    "y_min": 422,
+    "x_max": 512,
+    "y_max": 447,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_076",
+    "word_id": "w_3_5",
+    "transcription": "March",
+    "x_min": 530,
+    "y_min": 421,
+    "x_max": 642,
+    "y_max": 447,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_076",
+    "word_id": "w_3_6",
+    "transcription": "1917",
+    "x_min": 660,
+    "y_min": 422,
+    "x_max": 747,
+    "y_max": 447,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_076",
+    "word_id": "w_4_1",
+    "transcription": "Aged",
+    "x_min": 179,
+    "y_min": 571,
+    "x_max": 268,
+    "y_max": 604,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_076",
+    "word_id": "w_4_2",
+    "transcription": "67",
+    "x_min": 286,
+    "y_min": 572,
+    "x_max": 329,
+    "y_max": 597,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_076",
+    "word_id": "w_4_3",
+    "transcription": "years.",
+    "x_min": 346,
+    "y_min": 579,
+    "x_max": 451,
+    "y_max": 604,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_076",
+    "word_id": "w_5_1",
+    "transcription": "He",
+    "x_min": 180,
+    "y_min": 722,
+    "x_max": 230,
+    "y_max": 747,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_076",
+    "word_id": "w_5_2",
+    "transcription": "was",
+    "x_min": 248,
+    "y_min": 729,
+    "x_max": 315,
+    "y_max": 747,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_076",
+    "word_id": "w_5_3",
+    "transcription": "known",
+    "x_min": 333,
+    "y_min": 721,
+    "x_max": 447,
+    "y_max": 747,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_076",
+    "word_id": "w_5_4",
+    "transcription": "throughout",
+    "x_min": 465,
+    "y_min": 721,
+    "x_max": 659,
+    "y_max": 754,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_076",
+    "word_id": "w_5_5",
+    "transcription": "the",
+    "x_min": 677,
+    "y_min": 721,
+    "x_max": 733,
+    "y_max": 747,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_076",
+    "word_id": "w_5_6",
+    "transcription": "parish",
+    "x_min": 751,
+    "y_min": 721,
+    "x_max": 860,
+    "y_max": 754,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_076",
+    "word_id": "w_5_7",
+    "transcription": "for",
+    "x_min": 878,
+    "y_min": 721,
+    "x_max": 928,
+    "y_max": 747,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_076",
+    "word_id": "w_5_8",
+    "transcription": "his",
+    "x_min": 946,
+    "y_min": 721,
+    "x_max": 996,
+    "y_max": 747,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_076",
+    "word_id": "w_5_9",
+    "transcription": "honest",
+    "x_min": 1014,
+    "y_min": 721,
+    "x_max": 1130,
+    "y_max": 747,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_076",
+    "word_id": "w_5_10",
+    "transcription": "work",
+    "x_min": 1148,
+    "y_min": 721,
+    "x_max": 1235,
+    "y_max": 747,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_076",
+    "word_id": "w_5_11",
+    "transcription": "as",
+    "x_min": 1253,
+    "y_min": 729,
+    "x_max": 1291,
+    "y_max": 747,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_076",
+    "word_id": "w_5_12",
+    "transcription": "a",
+    "x_min": 1309,
+    "y_min": 729,
+    "x_max": 1329,
+    "y_max": 747,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_076",
+    "word_id": "w_5_13",
+    "transcription": "farmer.",
+    "x_min": 1347,
+    "y_min": 721,
+    "x_max": 1472,
+    "y_max": 747,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_076",
+    "word_id": "w_6_1",
+    "transcription": "Peace",
+    "x_min": 180,
+    "y_min": 872,
+    "x_max": 281,
+    "y_max": 897,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_076",
+    "word_id": "w_6_2",
+    "transcription": "be",
+    "x_min": 299,
+    "y_min": 871,
+    "x_max": 341,
+    "y_max": 897,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_076",
+    "word_id": "w_6_3",
+    "transcription": "with",
+    "x_min": 359,
+    "y_min": 871,
+    "x_max": 435,
+    "y_max": 897,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_076",
+    "word_id": "w_6_4",
+    "transcription": "him.",
+    "x_min": 453,
+    "y_min": 871,
+    "x_max": 529,
+    "y_max": 897,
+    "confidence": 1.0
+  }
+]

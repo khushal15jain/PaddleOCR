@@ -1,0 +1,322 @@
+[
+  {
+    "image_id": "IMG_060",
+    "word_id": "w_2_1",
+    "transcription": "LANCASHIRE",
+    "x_min": 180,
+    "y_min": 272,
+    "x_max": 424,
+    "y_max": 297,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_060",
+    "word_id": "w_2_2",
+    "transcription": "DISTRICT",
+    "x_min": 442,
+    "y_min": 272,
+    "x_max": 617,
+    "y_max": 297,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_060",
+    "word_id": "w_3_1",
+    "transcription": "George",
+    "x_min": 180,
+    "y_min": 422,
+    "x_max": 306,
+    "y_max": 454,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_060",
+    "word_id": "w_3_2",
+    "transcription": "Miller",
+    "x_min": 324,
+    "y_min": 421,
+    "x_max": 429,
+    "y_max": 447,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_060",
+    "word_id": "w_3_3",
+    "transcription": "—",
+    "x_min": 447,
+    "y_min": 437,
+    "x_max": 481,
+    "y_max": 447,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_060",
+    "word_id": "w_3_4",
+    "transcription": "printer,",
+    "x_min": 499,
+    "y_min": 421,
+    "x_max": 627,
+    "y_max": 454,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_060",
+    "word_id": "w_3_5",
+    "transcription": "High",
+    "x_min": 645,
+    "y_min": 421,
+    "x_max": 729,
+    "y_max": 454,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_060",
+    "word_id": "w_3_6",
+    "transcription": "Street,",
+    "x_min": 747,
+    "y_min": 422,
+    "x_max": 865,
+    "y_max": 451,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_060",
+    "word_id": "w_3_7",
+    "transcription": "No.",
+    "x_min": 883,
+    "y_min": 422,
+    "x_max": 943,
+    "y_max": 447,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_060",
+    "word_id": "w_3_8",
+    "transcription": "14",
+    "x_min": 961,
+    "y_min": 422,
+    "x_max": 1004,
+    "y_max": 447,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_060",
+    "word_id": "w_4_1",
+    "transcription": "James",
+    "x_min": 177,
+    "y_min": 572,
+    "x_max": 284,
+    "y_max": 604,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_060",
+    "word_id": "w_4_2",
+    "transcription": "Brown",
+    "x_min": 302,
+    "y_min": 572,
+    "x_max": 415,
+    "y_max": 597,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_060",
+    "word_id": "w_4_3",
+    "transcription": "—",
+    "x_min": 433,
+    "y_min": 587,
+    "x_max": 467,
+    "y_max": 597,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_060",
+    "word_id": "w_4_4",
+    "transcription": "stationer,",
+    "x_min": 485,
+    "y_min": 571,
+    "x_max": 647,
+    "y_max": 601,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_060",
+    "word_id": "w_4_5",
+    "transcription": "Market",
+    "x_min": 665,
+    "y_min": 571,
+    "x_max": 791,
+    "y_max": 597,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_060",
+    "word_id": "w_4_6",
+    "transcription": "Road,",
+    "x_min": 809,
+    "y_min": 571,
+    "x_max": 908,
+    "y_max": 601,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_060",
+    "word_id": "w_4_7",
+    "transcription": "No.",
+    "x_min": 926,
+    "y_min": 572,
+    "x_max": 986,
+    "y_max": 597,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_060",
+    "word_id": "w_4_8",
+    "transcription": "8",
+    "x_min": 1004,
+    "y_min": 572,
+    "x_max": 1026,
+    "y_max": 597,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_060",
+    "word_id": "w_5_1",
+    "transcription": "Elizabeth",
+    "x_min": 180,
+    "y_min": 721,
+    "x_max": 342,
+    "y_max": 747,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_060",
+    "word_id": "w_5_2",
+    "transcription": "Clark",
+    "x_min": 360,
+    "y_min": 721,
+    "x_max": 454,
+    "y_max": 747,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_060",
+    "word_id": "w_5_3",
+    "transcription": "—",
+    "x_min": 472,
+    "y_min": 737,
+    "x_max": 506,
+    "y_max": 747,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_060",
+    "word_id": "w_5_4",
+    "transcription": "dressmaker,",
+    "x_min": 524,
+    "y_min": 721,
+    "x_max": 734,
+    "y_max": 751,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_060",
+    "word_id": "w_5_5",
+    "transcription": "Church",
+    "x_min": 752,
+    "y_min": 721,
+    "x_max": 879,
+    "y_max": 747,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_060",
+    "word_id": "w_5_6",
+    "transcription": "Lane,",
+    "x_min": 897,
+    "y_min": 722,
+    "x_max": 993,
+    "y_max": 751,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_060",
+    "word_id": "w_5_7",
+    "transcription": "No.",
+    "x_min": 1011,
+    "y_min": 722,
+    "x_max": 1071,
+    "y_max": 747,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_060",
+    "word_id": "w_5_8",
+    "transcription": "21",
+    "x_min": 1089,
+    "y_min": 722,
+    "x_max": 1132,
+    "y_max": 747,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_060",
+    "word_id": "w_6_1",
+    "transcription": "Entries",
+    "x_min": 180,
+    "y_min": 871,
+    "x_max": 305,
+    "y_max": 897,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_060",
+    "word_id": "w_6_2",
+    "transcription": "are",
+    "x_min": 323,
+    "y_min": 879,
+    "x_max": 380,
+    "y_max": 897,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_060",
+    "word_id": "w_6_3",
+    "transcription": "arranged",
+    "x_min": 398,
+    "y_min": 871,
+    "x_max": 557,
+    "y_max": 904,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_060",
+    "word_id": "w_6_4",
+    "transcription": "alphabetically",
+    "x_min": 575,
+    "y_min": 871,
+    "x_max": 818,
+    "y_max": 904,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_060",
+    "word_id": "w_6_5",
+    "transcription": "by",
+    "x_min": 836,
+    "y_min": 871,
+    "x_max": 878,
+    "y_max": 904,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_060",
+    "word_id": "w_6_6",
+    "transcription": "surname.",
+    "x_min": 896,
+    "y_min": 879,
+    "x_max": 1057,
+    "y_max": 897,
+    "confidence": 1.0
+  }
+]

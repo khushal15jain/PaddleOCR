@@ -1,0 +1,302 @@
+[
+  {
+    "image_id": "IMG_097",
+    "word_id": "w_2_1",
+    "transcription": "Notice",
+    "x_min": 180,
+    "y_min": 271,
+    "x_max": 294,
+    "y_max": 297,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_097",
+    "word_id": "w_2_2",
+    "transcription": "is",
+    "x_min": 312,
+    "y_min": 271,
+    "x_max": 340,
+    "y_max": 297,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_097",
+    "word_id": "w_2_3",
+    "transcription": "hereby",
+    "x_min": 358,
+    "y_min": 271,
+    "x_max": 478,
+    "y_max": 304,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_097",
+    "word_id": "w_2_4",
+    "transcription": "given",
+    "x_min": 496,
+    "y_min": 271,
+    "x_max": 590,
+    "y_max": 304,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_097",
+    "word_id": "w_2_5",
+    "transcription": "to",
+    "x_min": 608,
+    "y_min": 274,
+    "x_max": 642,
+    "y_max": 297,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_097",
+    "word_id": "w_2_6",
+    "transcription": "residents",
+    "x_min": 660,
+    "y_min": 271,
+    "x_max": 820,
+    "y_max": 297,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_097",
+    "word_id": "w_2_7",
+    "transcription": "of",
+    "x_min": 838,
+    "y_min": 271,
+    "x_max": 873,
+    "y_max": 297,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_097",
+    "word_id": "w_2_8",
+    "transcription": "Durham.",
+    "x_min": 891,
+    "y_min": 271,
+    "x_max": 1042,
+    "y_max": 297,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_097",
+    "word_id": "w_3_1",
+    "transcription": "A",
+    "x_min": 179,
+    "y_min": 422,
+    "x_max": 205,
+    "y_max": 447,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_097",
+    "word_id": "w_3_2",
+    "transcription": "public",
+    "x_min": 223,
+    "y_min": 421,
+    "x_max": 329,
+    "y_max": 454,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_097",
+    "word_id": "w_3_3",
+    "transcription": "meeting",
+    "x_min": 347,
+    "y_min": 421,
+    "x_max": 488,
+    "y_max": 454,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_097",
+    "word_id": "w_3_4",
+    "transcription": "will",
+    "x_min": 506,
+    "y_min": 421,
+    "x_max": 568,
+    "y_max": 447,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_097",
+    "word_id": "w_3_5",
+    "transcription": "be",
+    "x_min": 586,
+    "y_min": 421,
+    "x_max": 628,
+    "y_max": 447,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_097",
+    "word_id": "w_3_6",
+    "transcription": "held",
+    "x_min": 646,
+    "y_min": 421,
+    "x_max": 721,
+    "y_max": 447,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_097",
+    "word_id": "w_3_7",
+    "transcription": "at",
+    "x_min": 739,
+    "y_min": 424,
+    "x_max": 773,
+    "y_max": 447,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_097",
+    "word_id": "w_3_8",
+    "transcription": "the",
+    "x_min": 791,
+    "y_min": 421,
+    "x_max": 847,
+    "y_max": 447,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_097",
+    "word_id": "w_3_9",
+    "transcription": "parish",
+    "x_min": 865,
+    "y_min": 421,
+    "x_max": 974,
+    "y_max": 454,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_097",
+    "word_id": "w_3_10",
+    "transcription": "hall.",
+    "x_min": 992,
+    "y_min": 421,
+    "x_max": 1067,
+    "y_max": 447,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_097",
+    "word_id": "w_4_1",
+    "transcription": "All",
+    "x_min": 179,
+    "y_min": 571,
+    "x_max": 226,
+    "y_max": 597,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_097",
+    "word_id": "w_4_2",
+    "transcription": "persons",
+    "x_min": 244,
+    "y_min": 579,
+    "x_max": 379,
+    "y_max": 604,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_097",
+    "word_id": "w_4_3",
+    "transcription": "concerned",
+    "x_min": 397,
+    "y_min": 571,
+    "x_max": 578,
+    "y_max": 597,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_097",
+    "word_id": "w_4_4",
+    "transcription": "are",
+    "x_min": 596,
+    "y_min": 579,
+    "x_max": 653,
+    "y_max": 597,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_097",
+    "word_id": "w_4_5",
+    "transcription": "requested",
+    "x_min": 671,
+    "y_min": 571,
+    "x_max": 844,
+    "y_max": 604,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_097",
+    "word_id": "w_4_6",
+    "transcription": "to",
+    "x_min": 862,
+    "y_min": 574,
+    "x_max": 896,
+    "y_max": 597,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_097",
+    "word_id": "w_4_7",
+    "transcription": "attend.",
+    "x_min": 914,
+    "y_min": 571,
+    "x_max": 1036,
+    "y_max": 597,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_097",
+    "word_id": "w_5_1",
+    "transcription": "Signed:",
+    "x_min": 180,
+    "y_min": 721,
+    "x_max": 311,
+    "y_max": 754,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_097",
+    "word_id": "w_5_2",
+    "transcription": "Margaret",
+    "x_min": 329,
+    "y_min": 722,
+    "x_max": 493,
+    "y_max": 754,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_097",
+    "word_id": "w_5_3",
+    "transcription": "Lewis,",
+    "x_min": 511,
+    "y_min": 721,
+    "x_max": 622,
+    "y_max": 751,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_097",
+    "word_id": "w_5_4",
+    "transcription": "Parish",
+    "x_min": 640,
+    "y_min": 721,
+    "x_max": 748,
+    "y_max": 747,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_097",
+    "word_id": "w_5_5",
+    "transcription": "Clerk",
+    "x_min": 766,
+    "y_min": 721,
+    "x_max": 860,
+    "y_max": 747,
+    "confidence": 1.0
+  }
+]

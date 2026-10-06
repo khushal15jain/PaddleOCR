@@ -1,0 +1,282 @@
+[
+  {
+    "image_id": "IMG_081",
+    "word_id": "w_2_1",
+    "transcription": "This",
+    "x_min": 180,
+    "y_min": 271,
+    "x_max": 253,
+    "y_max": 297,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_081",
+    "word_id": "w_2_2",
+    "transcription": "is",
+    "x_min": 271,
+    "y_min": 271,
+    "x_max": 299,
+    "y_max": 297,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_081",
+    "word_id": "w_2_3",
+    "transcription": "to",
+    "x_min": 317,
+    "y_min": 274,
+    "x_max": 351,
+    "y_max": 297,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_081",
+    "word_id": "w_2_4",
+    "transcription": "certify",
+    "x_min": 369,
+    "y_min": 271,
+    "x_max": 482,
+    "y_max": 304,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_081",
+    "word_id": "w_2_5",
+    "transcription": "that",
+    "x_min": 500,
+    "y_min": 271,
+    "x_max": 570,
+    "y_max": 297,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_081",
+    "word_id": "w_2_6",
+    "transcription": "Eleanor",
+    "x_min": 588,
+    "y_min": 271,
+    "x_max": 723,
+    "y_max": 297,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_081",
+    "word_id": "w_2_7",
+    "transcription": "Smith",
+    "x_min": 741,
+    "y_min": 271,
+    "x_max": 843,
+    "y_max": 297,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_081",
+    "word_id": "w_3_1",
+    "transcription": "was",
+    "x_min": 180,
+    "y_min": 429,
+    "x_max": 247,
+    "y_max": 447,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_081",
+    "word_id": "w_3_2",
+    "transcription": "recorded",
+    "x_min": 265,
+    "y_min": 421,
+    "x_max": 421,
+    "y_max": 447,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_081",
+    "word_id": "w_3_3",
+    "transcription": "in",
+    "x_min": 439,
+    "y_min": 421,
+    "x_max": 472,
+    "y_max": 447,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_081",
+    "word_id": "w_3_4",
+    "transcription": "the",
+    "x_min": 490,
+    "y_min": 421,
+    "x_max": 546,
+    "y_max": 447,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_081",
+    "word_id": "w_3_5",
+    "transcription": "parish",
+    "x_min": 564,
+    "y_min": 421,
+    "x_max": 673,
+    "y_max": 454,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_081",
+    "word_id": "w_3_6",
+    "transcription": "of",
+    "x_min": 691,
+    "y_min": 421,
+    "x_max": 726,
+    "y_max": 447,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_081",
+    "word_id": "w_3_7",
+    "transcription": "Devon",
+    "x_min": 744,
+    "y_min": 422,
+    "x_max": 853,
+    "y_max": 447,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_081",
+    "word_id": "w_4_1",
+    "transcription": "on",
+    "x_min": 180,
+    "y_min": 579,
+    "x_max": 222,
+    "y_max": 597,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_081",
+    "word_id": "w_4_2",
+    "transcription": "the",
+    "x_min": 240,
+    "y_min": 571,
+    "x_max": 296,
+    "y_max": 597,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_081",
+    "word_id": "w_4_3",
+    "transcription": "22nd",
+    "x_min": 314,
+    "y_min": 571,
+    "x_max": 401,
+    "y_max": 597,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_081",
+    "word_id": "w_4_4",
+    "transcription": "day",
+    "x_min": 419,
+    "y_min": 571,
+    "x_max": 481,
+    "y_max": 604,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_081",
+    "word_id": "w_4_5",
+    "transcription": "of",
+    "x_min": 499,
+    "y_min": 571,
+    "x_max": 534,
+    "y_max": 597,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_081",
+    "word_id": "w_4_6",
+    "transcription": "August",
+    "x_min": 551,
+    "y_min": 572,
+    "x_max": 674,
+    "y_max": 604,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_081",
+    "word_id": "w_4_7",
+    "transcription": "1912.",
+    "x_min": 692,
+    "y_min": 572,
+    "x_max": 789,
+    "y_max": 597,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_081",
+    "word_id": "w_5_1",
+    "transcription": "Occupation:",
+    "x_min": 180,
+    "y_min": 721,
+    "x_max": 388,
+    "y_max": 754,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_081",
+    "word_id": "w_5_2",
+    "transcription": "merchant",
+    "x_min": 406,
+    "y_min": 721,
+    "x_max": 572,
+    "y_max": 747,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_081",
+    "word_id": "w_6_1",
+    "transcription": "Entered",
+    "x_min": 180,
+    "y_min": 871,
+    "x_max": 319,
+    "y_max": 897,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_081",
+    "word_id": "w_6_2",
+    "transcription": "in",
+    "x_min": 337,
+    "y_min": 871,
+    "x_max": 370,
+    "y_max": 897,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_081",
+    "word_id": "w_6_3",
+    "transcription": "the",
+    "x_min": 388,
+    "y_min": 871,
+    "x_max": 444,
+    "y_max": 897,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_081",
+    "word_id": "w_6_4",
+    "transcription": "official",
+    "x_min": 462,
+    "y_min": 871,
+    "x_max": 579,
+    "y_max": 897,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_081",
+    "word_id": "w_6_5",
+    "transcription": "register.",
+    "x_min": 597,
+    "y_min": 871,
+    "x_max": 741,
+    "y_max": 904,
+    "confidence": 1.0
+  }
+]

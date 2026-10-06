@@ -8,12 +8,40 @@ import yaml
 
 from src.ocr_benchmark.evaluation.metrics import calculate_metrics
 from src.ocr_benchmark.evaluation.normalization import normalize_text
+from src.ocr_benchmark.evaluation.bbox_metrics import evaluate_bounding_boxes
 
 logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
 
 
+def to_word_boxes(pred_words):
+    """Ensure predicted words or lines have word-level bounding boxes."""
+    if not pred_words:
+        return []
+    wb = []
+    for p in pred_words:
+        txt = p.get("text", "").strip()
+        parts = txt.split()
+        if len(parts) <= 1:
+            wb.append(p)
+        else:
+            b = p.get("bbox", [0, 0, 0, 0])
+            span = max(1, b[2] - b[0])
+            total_chars = max(1, len(txt))
+            cur_x = b[0]
+            for part in parts:
+                w_w = max(5, int(span * (len(part) / total_chars)))
+                wb.append({
+                    "text": part,
+                    "confidence": p.get("confidence", 1.0),
+                    "bbox": [int(cur_x), int(b[1]), int(min(b[2], cur_x + w_w)), int(b[3])],
+                })
+                cur_x += w_w + int(span * (1 / total_chars))
+    return wb
+
+
 def evaluate(config):
     gt_dir = Path(config["dataset"]["ground_truth_dir"])
+    annot_dir = Path(config["dataset"].get("annotations_dir", "data/annotations"))
     out_dir = Path(config.get("output_dir", "outputs"))
     paddle_out = out_dir / "paddleocr"
     tesseract_out = out_dir / "tesseract"
@@ -21,11 +49,11 @@ def evaluate(config):
     metrics_out.mkdir(parents=True, exist_ok=True)
 
     modes = config["evaluation"].get("modes", ["strict", "normalized"])
+    iou_thresh = config["evaluation"].get("iou_threshold", 0.5)
 
     gt_files = [p for p in gt_dir.glob("*.txt") if p.read_text(encoding="utf-8").strip()]
     if not gt_files:
         logging.error("No non-empty ground truth files found for evaluation.")
-        # Still emit empty artifacts so downstream steps don't crash on missing files.
         pd.DataFrame().to_csv(metrics_out / "per_document_results.csv", index=False)
         pd.DataFrame().to_csv(metrics_out / "summary.csv", index=False)
         return
@@ -44,9 +72,17 @@ def evaluate(config):
 
         paddle_json = paddle_out / f"{img_id}.json"
         tess_json = tesseract_out / f"{img_id}.json"
+        annot_json = annot_dir / f"{img_id}.json"
 
         paddle_data = json.loads(paddle_json.read_text(encoding="utf-8")) if paddle_json.exists() else {}
         tess_data = json.loads(tess_json.read_text(encoding="utf-8")) if tess_json.exists() else {}
+        annot_data = json.loads(annot_json.read_text(encoding="utf-8")) if annot_json.exists() else []
+
+        pad_w_boxes = to_word_boxes(paddle_data.get("words", []))
+        tess_w_boxes = tess_data.get("words", [])
+
+        pad_bbox_eval = evaluate_bounding_boxes(annot_data, pad_w_boxes, iou_threshold=iou_thresh) if annot_data else {}
+        tess_bbox_eval = evaluate_bounding_boxes(annot_data, tess_w_boxes, iou_threshold=iou_thresh) if annot_data else {}
 
         for mode in modes:
             strict_flag = mode == "strict"
@@ -73,6 +109,14 @@ def evaluate(config):
                 "tesseract_cer": t_metrics.get("cer"),
                 "paddle_wer": p_metrics.get("wer"),
                 "tesseract_wer": t_metrics.get("wer"),
+                "paddle_iou": pad_bbox_eval.get("mean_word_iou"),
+                "tesseract_iou": tess_bbox_eval.get("mean_word_iou"),
+                "paddle_precision": pad_bbox_eval.get("precision"),
+                "tesseract_precision": tess_bbox_eval.get("precision"),
+                "paddle_recall": pad_bbox_eval.get("recall"),
+                "tesseract_recall": tess_bbox_eval.get("recall"),
+                "paddle_f1": pad_bbox_eval.get("f1"),
+                "tesseract_f1": tess_bbox_eval.get("f1"),
                 "paddle_runtime": paddle_data.get("runtime_seconds"),
                 "tesseract_runtime": tess_data.get("runtime_seconds"),
                 "paddle_confidence": paddle_data.get("average_confidence"),
@@ -93,21 +137,23 @@ def evaluate(config):
             "Engine": engine,
             "N": n,
             "Valid_N": successes,
-            "Failure Rate": (n - successes) / n if n > 0 else np.nan,
-            "CER Mean": valid_df[f"{prefix}_cer"].mean(),
-            "CER Std": valid_df[f"{prefix}_cer"].std(),
-            "CER Median": valid_df[f"{prefix}_cer"].median(),
-            "CER IQR": (valid_df[f"{prefix}_cer"].quantile(0.75) - valid_df[f"{prefix}_cer"].quantile(0.25))
-            if successes > 0 else np.nan,
-            "WER Mean": valid_df[f"{prefix}_wer"].mean(),
-            "WER Std": valid_df[f"{prefix}_wer"].std(),
-            "WER Median": valid_df[f"{prefix}_wer"].median(),
-            "WER IQR": (valid_df[f"{prefix}_wer"].quantile(0.75) - valid_df[f"{prefix}_wer"].quantile(0.25))
-            if successes > 0 else np.nan,
-            "Runtime Mean": valid_df[f"{prefix}_runtime"].mean(),
-            "Runtime Std": valid_df[f"{prefix}_runtime"].std(),
-            "Confidence Mean": valid_df[f"{prefix}_confidence"].mean(),
-            "Confidence Std": valid_df[f"{prefix}_confidence"].std(),
+            "Failure Rate": round((n - successes) / n, 4) if n > 0 else np.nan,
+            "CER Mean": round(valid_df[f"{prefix}_cer"].mean(), 4) if not valid_df.empty else np.nan,
+            "CER Std": round(valid_df[f"{prefix}_cer"].std(), 4) if not valid_df.empty else np.nan,
+            "CER Median": round(valid_df[f"{prefix}_cer"].median(), 4) if not valid_df.empty else np.nan,
+            "CER IQR": round(valid_df[f"{prefix}_cer"].quantile(0.75) - valid_df[f"{prefix}_cer"].quantile(0.25), 4) if not valid_df.empty else np.nan,
+            "WER Mean": round(valid_df[f"{prefix}_wer"].mean(), 4) if not valid_df.empty else np.nan,
+            "WER Std": round(valid_df[f"{prefix}_wer"].std(), 4) if not valid_df.empty else np.nan,
+            "WER Median": round(valid_df[f"{prefix}_wer"].median(), 4) if not valid_df.empty else np.nan,
+            "WER IQR": round(valid_df[f"{prefix}_wer"].quantile(0.75) - valid_df[f"{prefix}_wer"].quantile(0.25), 4) if not valid_df.empty else np.nan,
+            "Word IoU Mean": round(valid_df[f"{prefix}_iou"].mean(), 4) if f"{prefix}_iou" in valid_df and not valid_df.empty else np.nan,
+            "Precision Mean": round(valid_df[f"{prefix}_precision"].mean(), 4) if f"{prefix}_precision" in valid_df and not valid_df.empty else np.nan,
+            "Recall Mean": round(valid_df[f"{prefix}_recall"].mean(), 4) if f"{prefix}_recall" in valid_df and not valid_df.empty else np.nan,
+            "F1 Mean": round(valid_df[f"{prefix}_f1"].mean(), 4) if f"{prefix}_f1" in valid_df and not valid_df.empty else np.nan,
+            "Runtime Mean": round(valid_df[f"{prefix}_runtime"].mean(), 4) if not valid_df.empty else np.nan,
+            "Runtime Std": round(valid_df[f"{prefix}_runtime"].std(), 4) if not valid_df.empty else np.nan,
+            "Confidence Mean": round(valid_df[f"{prefix}_confidence"].mean(), 4) if not valid_df.empty else np.nan,
+            "Confidence Std": round(valid_df[f"{prefix}_confidence"].std(), 4) if not valid_df.empty else np.nan,
         }
 
     summary_data = []
