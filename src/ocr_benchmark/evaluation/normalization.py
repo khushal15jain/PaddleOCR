@@ -29,6 +29,6 @@ def normalize_text(text: str, strict: bool = False) -> str:
     # \w matches any alphanumeric character including unicode (accents),
     # so this strips punctuation while keeping accented letters, hyphens
     # and apostrophes.
-    text = re.sub(r"[^\w\s'-]", " ", text)
+    text = re.sub(r"[^\w\s'-]|_", " ", text)
     text = re.sub(r"\s+", " ", text).strip()
     return text

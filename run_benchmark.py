@@ -21,8 +21,38 @@ from src.ocr_benchmark.evaluation.statistics import perform_statistical_tests
 logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
 
 
+def configure_dataset_and_languages(config, dataset_override=None):
+    if dataset_override:
+        datasets = config.get("datasets", {})
+        if dataset_override in datasets:
+            config["dataset"] = datasets[dataset_override]
+        else:
+            logging.error(f"Unknown dataset '{dataset_override}'. Available: {list(datasets.keys())}")
+            sys.exit(1)
+
+    ds = config.setdefault("dataset", {})
+    ds_lang = ds.get("language", "en")
+
+    # Derive PaddleOCR and Tesseract languages dynamically
+    paddle_lang = "en" if ds_lang == "en" else "fr"
+    tess_lang = "eng" if ds_lang == "en" else "fra"
+
+    config.setdefault("paddleocr", {})["lang"] = paddle_lang
+    config.setdefault("tesseract", {})["language"] = tess_lang
+    if "tesseract_preprocessed" in config:
+        config["tesseract_preprocessed"]["language"] = tess_lang
+
+    return config
+
+
 def main():
-    parser = argparse.ArgumentParser(description="Historical French OCR Benchmark")
+    parser = argparse.ArgumentParser(description="Reproducible Historical Document OCR Benchmark")
+    parser.add_argument(
+        "--dataset",
+        type=str,
+        default=None,
+        help="Dataset to benchmark: 'synthetic_en' or 'historical_fr' (overrides configs/config.yaml default)",
+    )
     parser.add_argument(
         "--allow-partial",
         action="store_true",
@@ -32,16 +62,20 @@ def main():
     )
     args = parser.parse_args()
 
-    logging.info("=========================================")
-    logging.info("Starting Historical French OCR Benchmark")
-    logging.info("=========================================")
-
     config_path = "configs/config.yaml"
     if not Path(config_path).exists():
         logging.error(f"Missing config: {config_path}")
         sys.exit(1)
 
     config = yaml.safe_load(Path(config_path).read_text(encoding="utf-8"))
+    config = configure_dataset_and_languages(config, args.dataset)
+
+    ds_name = config.get("dataset", {}).get("name", "dataset")
+    ds_lang = config.get("dataset", {}).get("language", "en")
+
+    logging.info("=========================================")
+    logging.info(f"Starting OCR Benchmark: {ds_name} (language: {ds_lang})")
+    logging.info("=========================================")
 
     logging.info("--- PHASE 1: DATASET VALIDATION ---")
     validator = DatasetValidator(config)
