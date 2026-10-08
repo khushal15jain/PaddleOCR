@@ -90,7 +90,7 @@ Outputs land in `outputs/`:
 - `outputs/metrics/summary.csv`: Aggregated means, medians, IQRs, and failure rates stratified by document genre and degradation.
 - `outputs/metrics/statistical_tests.csv`: Paired Wilcoxon signed-rank tests with Holm correction and bootstrap 95% CIs.
 - `outputs/figures/`: Boxplots comparing CER, WER, and runtime across engines and degradation categories.
-- `outputs/reports/research_report.md`: Complete research report summarizing experimental results.
+- `outputs/reports/research_report.md` (also tracked at [`docs/RESEARCH_REPORT.md`](docs/RESEARCH_REPORT.md)): Complete research report summarizing experimental results and statistical analyses.
 
 ---
 
