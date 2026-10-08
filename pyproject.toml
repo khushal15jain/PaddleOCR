@@ -3,11 +3,11 @@ requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "ocr_benchmark"
-version = "2.0.0"
-description = "A Reproducible Benchmarking Framework for Printed and Handwritten Historical Document OCR Using PaddleOCR and Tesseract with Ground-Truth-Based Accuracy Evaluation"
+name = "historical-french-ocr-benchmark"
+version = "2.2.0"
+description = "A Reproducible Benchmarking Framework for Printed and Handwritten Historical Document OCR Comparing PaddleOCR and Tesseract with Ground-Truth-Based Accuracy Evaluation"
 authors = [
-    { name = "OCR Researcher" }
+    { name = "Khushal Jain", email = "jain.khushal1566@gmail.com" }
 ]
 readme = "README.md"
 requires-python = ">=3.9"

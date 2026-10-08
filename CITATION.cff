@@ -1,9 +1,9 @@
 cff-version: 1.2.0
 message: "If you use this software, please cite it as below."
 authors:
-- family-names: "Researcher"
-  given-names: "OCR"
-title: "A Reproducible Benchmarking Framework for Printed and Handwritten Historical Document OCR Using PaddleOCR and Tesseract with Ground-Truth-Based Accuracy Evaluation"
-version: 2.0.0
-date-released: 2026-09-26
-url: "https://github.com/example/ocr_benchmark"
+- family-names: "Jain"
+  given-names: "Khushal"
+title: "A Reproducible Benchmarking Framework for Printed and Handwritten Historical Document OCR Comparing PaddleOCR and Tesseract with Ground-Truth-Based Accuracy Evaluation"
+version: 2.2.0
+date-released: 2026-10-08
+url: "https://github.com/khushal15jain/PaddleOCR"

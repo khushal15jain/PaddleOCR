@@ -1,6 +1,22 @@
 # Changelog
 
-## 2.1.0 — 2026-10-08
+## 2.2.0 — 2026-10-08 (Submission Release)
+
+### Added
+- **Curated & Standardized Historical French Benchmark ($N=20$)**:
+  - Evaluated a balanced cohort of 20 authentic historical French archival scans partitioned into 10 printed and 10 handwritten documents.
+  - Normalized scan dimensions to a standard 1600px maximum dimension, resolving runtime measurement distortion from 8–18 MB camera scans.
+  - Provided 100% complete, verified ground truth transcriptions for all 20 documents (0 missing, 0 empty).
+- **Comprehensive Audit of Metadata Labels**: Audited all 50 archival image labels in `metadata.csv`, correcting printed clippings and death notices that were previously misclassified as handwritten.
+- **Committed `results/` Artifact Directory**: Added a permanent, version-controlled `results/` directory containing empirical CSV tables (`summary.csv`, `per_document_results.csv`, `statistical_tests.csv`), high-resolution figures (`results/figures/`), and full research report (`results/RESEARCH_REPORT.md`).
+- **Viva Preparation & Defense Material**: Added `docs/VIVA_PREPARATION.md` addressing key viva questions (CER vs WER, Wilcoxon vs t-test, empty output scoring, model limits on handwriting, ground truth verification) and `docs/PRESENTATION_SLIDES.md` for project review presentation.
+
+### Fixed
+- **PaddleOCR Execution on French Corpus**: Confirmed end-to-end execution of `PaddleRunner` with French model weights (`lang='fr'`) and verified robust parsing of `rec_texts` and `dt_polys` outputs.
+- **Academic README Reorientation**: Removed informal handoff language and restructured the documentation around scientific objectives, experimental methodology, empirical findings, and reproducible execution.
+- **Package Metadata**: Renamed project metadata to `historical-french-ocr-benchmark` with updated author and citation details.
+
+---
 
 ### Fixed
 - **Synthetic Scoring Inflation Fixed (Critical)**: Synthetic images contained printed headers (e.g. `LETTER NO. 001`, `THE COUNTY HERALD — 1912`) and footers (`Document ID: IMG_001`) that were omitted from raw ground-truth `.txt` files. Both OCR engines recognized them cleanly, resulting in ~0.20 CER inflation across the dataset. Regenerated ground-truth text, word-level bounding boxes in `data/ground_truth.csv`, and `data/annotations/*.json` via `synthetic_generator.py` to match exact rendered layouts, resolving the discrepancy.
