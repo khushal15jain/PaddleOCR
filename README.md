@@ -23,6 +23,26 @@ The benchmark architecture is fully config-driven and supports multiple datasets
 - **Dual Statistical Stratification**: Paired Wilcoxon signed-rank tests are stratified by both **document genre** and **degradation type**, with bootstrap 95% confidence intervals on the median difference and Holm-Bonferroni correction applied separately within accuracy and runtime metric families.
 - **Runtime Transparency**: On CPU hardware, Tesseract averages **~0.58s** per image whereas PaddleOCR averages **~8.4s** per image (**PaddleOCR is ~15× slower on CPU**). PaddleOCR delivers lower character error on complex prints, while Tesseract provides substantially higher batch throughput.
 
+### Experimental Benchmark Results (`synthetic_en`, 103 Documents)
+
+| Document Category / Condition | Engine | Strict CER | Strict WER | Normalized CER | Normalized WER | Mean Word IoU | Avg Runtime (CPU) |
+| :--- | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
+| **Clean Scans** | **PaddleOCR** | 0.0327 | 0.4107 | 0.0047 | 0.0173 | 0.5629 | 9.35s |
+| | **Tesseract (raw)** | **0.0306** | 0.4139 | **0.0038** | **0.0103** | 0.6537 | **0.54s** |
+| | **Tesseract (preprocessed)** | 0.0358 | **0.4087** | 0.0124 | 0.0496 | **0.6598** | 0.69s |
+| **Uneven Illumination** | **PaddleOCR** | 0.0361 | **0.4712** | 0.0032 | 0.0118 | 0.5718 | 8.62s |
+| *(12 degraded documents)* | **Tesseract (raw)** | 0.8631 | 0.9792 | 0.8565 | 0.8468 | 0.5332 | **0.40s** |
+| | **Tesseract (preprocessed)** | **0.0351** | 0.5000 | **0.0030** | **0.0100** | **0.6599** | 0.72s |
+| **Letters (Clean / Degraded)** | **PaddleOCR** | 0.0305 | 0.3988 | 0.0004 | 0.0031 | 0.4676 | 10.18s |
+| | **Tesseract (raw)** | 0.1175 | 0.4500 | 0.0908 | 0.0906 | **0.5833** | **0.61s** |
+| | **Tesseract (preprocessed)** | **0.0279** | **0.3775** | **0.0002** | **0.0010** | 0.5824 | 0.79s |
+| **Newspapers** | **PaddleOCR** | **0.0357** | 0.3600 | **0.0085** | 0.0293 | 0.4914 | 10.09s |
+| | **Tesseract (raw)** | 0.1733 | 0.4300 | 0.1535 | 0.1608 | 0.5469 | **0.61s** |
+| | **Tesseract (preprocessed)** | 0.0366 | **0.3288** | 0.0132 | **0.0293** | **0.5744** | 0.78s |
+| **Historical Marriage Registers** | **PaddleOCR** | **0.0432** | 0.8933 | **0.0000** | **0.0000** | 0.5741 | 6.40s |
+| | **Tesseract (raw)** | 0.1202 | 0.8800 | 0.0812 | 0.0828 | 0.7193 | **0.55s** |
+| | **Tesseract (preprocessed)** | 0.0519 | **0.8433** | 0.0122 | 0.0092 | **0.7341** | 0.72s |
+
 ---
 
 ## 3. Installation & Setup
