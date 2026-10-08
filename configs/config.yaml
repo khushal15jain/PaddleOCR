@@ -1,11 +1,10 @@
 dataset:
-  name: "synthetic_en"
-  language: "en"
-  image_dir: data/raw/images
-  ground_truth_dir: data/ground_truth
-  annotations_dir: data/annotations
-  metadata_file: data/metadata.csv
-  documents_file: data/documents.csv
+  name: "historical_fr"
+  language: "fr"
+  image_dir: data/raw/historical_fr/images
+  ground_truth_dir: data/raw/historical_fr/ground_truth
+  annotations_dir: data/raw/historical_fr/annotations
+  metadata_file: data/raw/historical_fr/metadata.csv
 
 datasets:
   synthetic_en:
