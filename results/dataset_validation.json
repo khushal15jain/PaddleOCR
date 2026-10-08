@@ -1,0 +1,9 @@
+{
+    "total_images": 20,
+    "total_ground_truth": 20,
+    "matched_pairs": 20,
+    "missing_images": [],
+    "missing_ground_truth": [],
+    "duplicates": [],
+    "invalid_files": []
+}
