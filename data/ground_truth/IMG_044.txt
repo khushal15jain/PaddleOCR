@@ -1,3 +1,4 @@
+MARRIAGE REGISTER
 Parish: Saint Peter's Parish
 Date: 17 June 1925
 Groom: Thomas Bennett
@@ -5,3 +6,4 @@ Bride: George Miller
 Residence: Norfolk
 Occupation: teacher
 Witnesses: Thomas Green; Elizabeth Green
+Document ID: IMG_044

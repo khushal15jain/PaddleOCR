@@ -1,6 +1,26 @@
 [
   {
     "image_id": "IMG_076",
+    "word_id": "w_1_1",
+    "transcription": "IN",
+    "x_min": 645,
+    "y_min": 155,
+    "x_max": 737,
+    "y_max": 205,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_076",
+    "word_id": "w_1_2",
+    "transcription": "MEMORIAM",
+    "x_min": 783,
+    "y_min": 155,
+    "x_max": 1151,
+    "y_max": 205,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_076",
     "word_id": "w_2_1",
     "transcription": "Thomas",
     "x_min": 180,
@@ -277,6 +297,36 @@
     "y_min": 871,
     "x_max": 529,
     "y_max": 897,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_076",
+    "word_id": "w_7_1",
+    "transcription": "Document",
+    "x_min": 172,
+    "y_min": 2205,
+    "x_max": 305,
+    "y_max": 2242,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_076",
+    "word_id": "w_7_2",
+    "transcription": "ID:",
+    "x_min": 321,
+    "y_min": 2205,
+    "x_max": 370,
+    "y_max": 2242,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_076",
+    "word_id": "w_7_3",
+    "transcription": "IMG_076",
+    "x_min": 386,
+    "y_min": 2205,
+    "x_max": 500,
+    "y_max": 2242,
     "confidence": 1.0
   }
 ]

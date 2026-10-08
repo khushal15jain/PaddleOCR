@@ -1,3 +1,4 @@
+MARRIAGE REGISTER
 Parish: Holy Trinity Parish
 Date: 17 June 1898
 Groom: William Carter
@@ -5,3 +6,4 @@ Bride: Edward Harris
 Residence: Leeds
 Occupation: printer
 Witnesses: Thomas Green; Elizabeth Green
+Document ID: IMG_053

@@ -1,6 +1,36 @@
 [
   {
     "image_id": "IMG_060",
+    "word_id": "w_1_1",
+    "transcription": "COMMERCIAL",
+    "x_min": 362,
+    "y_min": 160,
+    "x_max": 791,
+    "y_max": 202,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_060",
+    "word_id": "w_1_2",
+    "transcription": "DIRECTORY",
+    "x_min": 833,
+    "y_min": 160,
+    "x_max": 1219,
+    "y_max": 202,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_060",
+    "word_id": "w_1_3",
+    "transcription": "1915",
+    "x_min": 1261,
+    "y_min": 160,
+    "x_max": 1432,
+    "y_max": 202,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_060",
     "word_id": "w_2_1",
     "transcription": "LANCASHIRE",
     "x_min": 180,
@@ -317,6 +347,36 @@
     "y_min": 879,
     "x_max": 1057,
     "y_max": 897,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_060",
+    "word_id": "w_7_1",
+    "transcription": "Document",
+    "x_min": 172,
+    "y_min": 2205,
+    "x_max": 305,
+    "y_max": 2242,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_060",
+    "word_id": "w_7_2",
+    "transcription": "ID:",
+    "x_min": 321,
+    "y_min": 2205,
+    "x_max": 370,
+    "y_max": 2242,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_060",
+    "word_id": "w_7_3",
+    "transcription": "IMG_060",
+    "x_min": 386,
+    "y_min": 2205,
+    "x_max": 500,
+    "y_max": 2242,
     "confidence": 1.0
   }
 ]

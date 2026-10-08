@@ -1,541 +1,741 @@
 image_id,ground_truth_text,character_count,word_count,line_count
-IMG_001,"Dear Margaret Lewis,
+IMG_001,"LETTER NO. 001
+Dear Margaret Lewis,
 I write to you from Yorkshire on the 14th day of October 1920.
 The goods arrived safely and the account has been entered by the printer.
 Please send word before the winter market begins.
 Yours faithfully,
-Eleanor Smith",239,41,6
-IMG_002,"Dear Florence Brown,
+Eleanor Smith
+Document ID: IMG_001",275,47,8
+IMG_002,"LETTER NO. 002
+Dear Florence Brown,
 I write to you from Leeds on the 14th day of October 1881.
 The goods arrived safely and the account has been entered by the baker.
 Please send word before the winter market begins.
 Yours faithfully,
-Eleanor Smith",233,41,6
-IMG_003,"Dear Margaret Lewis,
+Eleanor Smith
+Document ID: IMG_002",269,47,8
+IMG_003,"LETTER NO. 003
+Dear Margaret Lewis,
 I write to you from Kent on the 14th day of October 1904.
 The goods arrived safely and the account has been entered by the carpenter.
 Please send word before the winter market begins.
 Yours faithfully,
-George Miller",236,41,6
-IMG_004,"Dear Margaret Lewis,
+George Miller
+Document ID: IMG_003",272,47,8
+IMG_004,"LETTER NO. 004
+Dear Margaret Lewis,
 I write to you from Yorkshire on the 14th day of October 1925.
 The goods arrived safely and the account has been entered by the clerk.
 Please send word before the winter market begins.
 Yours faithfully,
-Margaret Lewis",238,41,6
-IMG_005,"Dear George Miller,
+Margaret Lewis
+Document ID: IMG_004",274,47,8
+IMG_005,"LETTER NO. 005
+Dear George Miller,
 I write to you from Bristol on the 14th day of October 1922.
 The goods arrived safely and the account has been entered by the stationer.
 Please send word before the winter market begins.
 Yours faithfully,
-Florence Brown",239,41,6
-IMG_006,"Dear William Carter,
+Florence Brown
+Document ID: IMG_005",275,47,8
+IMG_006,"LETTER NO. 006
+Dear William Carter,
 I write to you from Kent on the 14th day of October 1932.
 The goods arrived safely and the account has been entered by the tailor.
 Please send word before the winter market begins.
 Yours faithfully,
-Margaret Lewis",234,41,6
-IMG_007,"Dear George Miller,
+Margaret Lewis
+Document ID: IMG_006",270,47,8
+IMG_007,"LETTER NO. 007
+Dear George Miller,
 I write to you from Devon on the 14th day of October 1914.
 The goods arrived safely and the account has been entered by the tailor.
 Please send word before the winter market begins.
 Yours faithfully,
-Clara Johnson",233,41,6
-IMG_008,"Dear Clara Johnson,
+Clara Johnson
+Document ID: IMG_007",269,47,8
+IMG_008,"LETTER NO. 008
+Dear Clara Johnson,
 I write to you from Norfolk on the 14th day of October 1884.
 The goods arrived safely and the account has been entered by the stationer.
 Please send word before the winter market begins.
 Yours faithfully,
-Florence Brown",239,41,6
-IMG_009,"Dear William Carter,
+Florence Brown
+Document ID: IMG_008",275,47,8
+IMG_009,"LETTER NO. 009
+Dear William Carter,
 I write to you from London on the 14th day of October 1909.
 The goods arrived safely and the account has been entered by the baker.
 Please send word before the winter market begins.
 Yours faithfully,
-Florence Brown",235,41,6
-IMG_010,"Dear Edward Harris,
+Florence Brown
+Document ID: IMG_009",271,47,8
+IMG_010,"LETTER NO. 010
+Dear Edward Harris,
 I write to you from Yorkshire on the 14th day of October 1900.
 The goods arrived safely and the account has been entered by the farmer.
 Please send word before the winter market begins.
 Yours faithfully,
-George Miller",237,41,6
-IMG_011,"Dear Thomas Bennett,
+George Miller
+Document ID: IMG_010",273,47,8
+IMG_011,"LETTER NO. 011
+Dear Thomas Bennett,
 I write to you from London on the 14th day of October 1915.
 The goods arrived safely and the account has been entered by the baker.
 Please send word before the winter market begins.
 Yours faithfully,
-Clara Johnson",234,41,6
-IMG_012,"Dear William Carter,
+Clara Johnson
+Document ID: IMG_011",270,47,8
+IMG_012,"LETTER NO. 012
+Dear William Carter,
 I write to you from Devon on the 14th day of October 1901.
 The goods arrived safely and the account has been entered by the baker.
 Please send word before the winter market begins.
 Yours faithfully,
-Henry Davis",231,41,6
-IMG_013,"Dear Edward Harris,
+Henry Davis
+Document ID: IMG_012",267,47,8
+IMG_013,"LETTER NO. 013
+Dear Edward Harris,
 I write to you from Leeds on the 14th day of October 1922.
 The goods arrived safely and the account has been entered by the baker.
 Please send word before the winter market begins.
 Yours faithfully,
-Henry Davis",230,41,6
-IMG_014,"Dear William Carter,
+Henry Davis
+Document ID: IMG_013",266,47,8
+IMG_014,"LETTER NO. 014
+Dear William Carter,
 I write to you from Bristol on the 14th day of October 1935.
 The goods arrived safely and the account has been entered by the merchant.
 Please send word before the winter market begins.
 Yours faithfully,
-Arthur Wilson",238,41,6
-IMG_015,"Dear Margaret Lewis,
+Arthur Wilson
+Document ID: IMG_014",274,47,8
+IMG_015,"LETTER NO. 015
+Dear Margaret Lewis,
 I write to you from Durham on the 14th day of October 1935.
 The goods arrived safely and the account has been entered by the baker.
 Please send word before the winter market begins.
 Yours faithfully,
-William Carter",235,41,6
-IMG_016,"Dear William Carter,
+William Carter
+Document ID: IMG_015",271,47,8
+IMG_016,"LETTER NO. 016
+Dear William Carter,
 I write to you from Norfolk on the 14th day of October 1904.
 The goods arrived safely and the account has been entered by the printer.
 Please send word before the winter market begins.
 Yours faithfully,
-George Miller",237,41,6
-IMG_017,"Dear Henry Davis,
+George Miller
+Document ID: IMG_016",273,47,8
+IMG_017,"LETTER NO. 017
+Dear Henry Davis,
 I write to you from Durham on the 14th day of October 1883.
 The goods arrived safely and the account has been entered by the baker.
 Please send word before the winter market begins.
 Yours faithfully,
-Thomas Bennett",232,41,6
-IMG_018,"Dear Henry Davis,
+Thomas Bennett
+Document ID: IMG_017",268,47,8
+IMG_018,"LETTER NO. 018
+Dear Henry Davis,
 I write to you from Yorkshire on the 14th day of October 1917.
 The goods arrived safely and the account has been entered by the stationer.
 Please send word before the winter market begins.
 Yours faithfully,
-Clara Johnson",238,41,6
-IMG_019,"Dear George Miller,
+Clara Johnson
+Document ID: IMG_018",274,47,8
+IMG_019,"LETTER NO. 019
+Dear George Miller,
 I write to you from Durham on the 14th day of October 1922.
 The goods arrived safely and the account has been entered by the carpenter.
 Please send word before the winter market begins.
 Yours faithfully,
-William Carter",238,41,6
-IMG_020,"Dear George Miller,
+William Carter
+Document ID: IMG_019",274,47,8
+IMG_020,"LETTER NO. 020
+Dear George Miller,
 I write to you from Manchester on the 14th day of October 1903.
 The goods arrived safely and the account has been entered by the blacksmith.
 Please send word before the winter market begins.
 Yours faithfully,
-George Miller",242,41,6
-IMG_021,"LOCAL NEWS FROM LEEDS
+George Miller
+Document ID: IMG_020",278,47,8
+IMG_021,"THE COUNTY HERALD — 1934
+LOCAL NEWS FROM LEEDS
 MARKET REPORT
 Prices remained steady this week, with merchants reporting good trade.
 A meeting was held at the town hall concerning the new railway service.
-Weather: light rain in the morning, clearing by afternoon.",237,38,5
-IMG_022,"LOCAL NEWS FROM MANCHESTER
+Weather: light rain in the morning, clearing by afternoon.
+Document ID: IMG_021",283,46,7
+IMG_022,"THE COUNTY HERALD — 1880
+LOCAL NEWS FROM MANCHESTER
 MARKET REPORT
 Prices remained steady this week, with merchants reporting good trade.
 A meeting was held at the town hall concerning the new railway service.
-Weather: light rain in the morning, clearing by afternoon.",242,38,5
-IMG_023,"LOCAL NEWS FROM DEVON
+Weather: light rain in the morning, clearing by afternoon.
+Document ID: IMG_022",288,46,7
+IMG_023,"THE COUNTY HERALD — 1930
+LOCAL NEWS FROM DEVON
 MARKET REPORT
 Prices remained steady this week, with merchants reporting good trade.
 A meeting was held at the town hall concerning the new railway service.
-Weather: light rain in the morning, clearing by afternoon.",237,38,5
-IMG_024,"LOCAL NEWS FROM KENT
+Weather: light rain in the morning, clearing by afternoon.
+Document ID: IMG_023",283,46,7
+IMG_024,"THE COUNTY HERALD — 1906
+LOCAL NEWS FROM KENT
 MARKET REPORT
 Prices remained steady this week, with merchants reporting good trade.
 A meeting was held at the town hall concerning the new railway service.
-Weather: light rain in the morning, clearing by afternoon.",236,38,5
-IMG_025,"LOCAL NEWS FROM BRISTOL
+Weather: light rain in the morning, clearing by afternoon.
+Document ID: IMG_024",282,46,7
+IMG_025,"THE COUNTY HERALD — 1902
+LOCAL NEWS FROM BRISTOL
 MARKET REPORT
 Prices remained steady this week, with merchants reporting good trade.
 A meeting was held at the town hall concerning the new railway service.
-Weather: light rain in the morning, clearing by afternoon.",239,38,5
-IMG_026,"LOCAL NEWS FROM LONDON
+Weather: light rain in the morning, clearing by afternoon.
+Document ID: IMG_025",285,46,7
+IMG_026,"THE COUNTY HERALD — 1881
+LOCAL NEWS FROM LONDON
 MARKET REPORT
 Prices remained steady this week, with merchants reporting good trade.
 A meeting was held at the town hall concerning the new railway service.
-Weather: light rain in the morning, clearing by afternoon.",238,38,5
-IMG_027,"LOCAL NEWS FROM DEVON
+Weather: light rain in the morning, clearing by afternoon.
+Document ID: IMG_026",284,46,7
+IMG_027,"THE COUNTY HERALD — 1887
+LOCAL NEWS FROM DEVON
 MARKET REPORT
 Prices remained steady this week, with merchants reporting good trade.
 A meeting was held at the town hall concerning the new railway service.
-Weather: light rain in the morning, clearing by afternoon.",237,38,5
-IMG_028,"LOCAL NEWS FROM YORKSHIRE
+Weather: light rain in the morning, clearing by afternoon.
+Document ID: IMG_027",283,46,7
+IMG_028,"THE COUNTY HERALD — 1922
+LOCAL NEWS FROM YORKSHIRE
 MARKET REPORT
 Prices remained steady this week, with merchants reporting good trade.
 A meeting was held at the town hall concerning the new railway service.
-Weather: light rain in the morning, clearing by afternoon.",241,38,5
-IMG_029,"LOCAL NEWS FROM NORFOLK
+Weather: light rain in the morning, clearing by afternoon.
+Document ID: IMG_028",287,46,7
+IMG_029,"THE COUNTY HERALD — 1906
+LOCAL NEWS FROM NORFOLK
 MARKET REPORT
 Prices remained steady this week, with merchants reporting good trade.
 A meeting was held at the town hall concerning the new railway service.
-Weather: light rain in the morning, clearing by afternoon.",239,38,5
-IMG_030,"LOCAL NEWS FROM LANCASHIRE
+Weather: light rain in the morning, clearing by afternoon.
+Document ID: IMG_029",285,46,7
+IMG_030,"THE COUNTY HERALD — 1921
+LOCAL NEWS FROM LANCASHIRE
 MARKET REPORT
 Prices remained steady this week, with merchants reporting good trade.
 A meeting was held at the town hall concerning the new railway service.
-Weather: light rain in the morning, clearing by afternoon.",242,38,5
-IMG_031,"LOCAL NEWS FROM MANCHESTER
+Weather: light rain in the morning, clearing by afternoon.
+Document ID: IMG_030",288,46,7
+IMG_031,"THE COUNTY HERALD — 1923
+LOCAL NEWS FROM MANCHESTER
 MARKET REPORT
 Prices remained steady this week, with merchants reporting good trade.
 A meeting was held at the town hall concerning the new railway service.
-Weather: light rain in the morning, clearing by afternoon.",242,38,5
-IMG_032,"LOCAL NEWS FROM DURHAM
+Weather: light rain in the morning, clearing by afternoon.
+Document ID: IMG_031",288,46,7
+IMG_032,"THE COUNTY HERALD — 1911
+LOCAL NEWS FROM DURHAM
 MARKET REPORT
 Prices remained steady this week, with merchants reporting good trade.
 A meeting was held at the town hall concerning the new railway service.
-Weather: light rain in the morning, clearing by afternoon.",238,38,5
-IMG_033,"LOCAL NEWS FROM LEEDS
+Weather: light rain in the morning, clearing by afternoon.
+Document ID: IMG_032",284,46,7
+IMG_033,"THE COUNTY HERALD — 1909
+LOCAL NEWS FROM LEEDS
 MARKET REPORT
 Prices remained steady this week, with merchants reporting good trade.
 A meeting was held at the town hall concerning the new railway service.
-Weather: light rain in the morning, clearing by afternoon.",237,38,5
-IMG_034,"LOCAL NEWS FROM DEVON
+Weather: light rain in the morning, clearing by afternoon.
+Document ID: IMG_033",283,46,7
+IMG_034,"THE COUNTY HERALD — 1908
+LOCAL NEWS FROM DEVON
 MARKET REPORT
 Prices remained steady this week, with merchants reporting good trade.
 A meeting was held at the town hall concerning the new railway service.
-Weather: light rain in the morning, clearing by afternoon.",237,38,5
-IMG_035,"LOCAL NEWS FROM LONDON
+Weather: light rain in the morning, clearing by afternoon.
+Document ID: IMG_034",283,46,7
+IMG_035,"THE COUNTY HERALD — 1900
+LOCAL NEWS FROM LONDON
 MARKET REPORT
 Prices remained steady this week, with merchants reporting good trade.
 A meeting was held at the town hall concerning the new railway service.
-Weather: light rain in the morning, clearing by afternoon.",238,38,5
-IMG_036,"LOCAL NEWS FROM LEEDS
+Weather: light rain in the morning, clearing by afternoon.
+Document ID: IMG_035",284,46,7
+IMG_036,"THE COUNTY HERALD — 1883
+LOCAL NEWS FROM LEEDS
 MARKET REPORT
 Prices remained steady this week, with merchants reporting good trade.
 A meeting was held at the town hall concerning the new railway service.
-Weather: light rain in the morning, clearing by afternoon.",237,38,5
-IMG_037,"LOCAL NEWS FROM NORFOLK
+Weather: light rain in the morning, clearing by afternoon.
+Document ID: IMG_036",283,46,7
+IMG_037,"THE COUNTY HERALD — 1927
+LOCAL NEWS FROM NORFOLK
 MARKET REPORT
 Prices remained steady this week, with merchants reporting good trade.
 A meeting was held at the town hall concerning the new railway service.
-Weather: light rain in the morning, clearing by afternoon.",239,38,5
-IMG_038,"LOCAL NEWS FROM NORFOLK
+Weather: light rain in the morning, clearing by afternoon.
+Document ID: IMG_037",285,46,7
+IMG_038,"THE COUNTY HERALD — 1888
+LOCAL NEWS FROM NORFOLK
 MARKET REPORT
 Prices remained steady this week, with merchants reporting good trade.
 A meeting was held at the town hall concerning the new railway service.
-Weather: light rain in the morning, clearing by afternoon.",239,38,5
-IMG_039,"LOCAL NEWS FROM BRISTOL
+Weather: light rain in the morning, clearing by afternoon.
+Document ID: IMG_038",285,46,7
+IMG_039,"THE COUNTY HERALD — 1904
+LOCAL NEWS FROM BRISTOL
 MARKET REPORT
 Prices remained steady this week, with merchants reporting good trade.
 A meeting was held at the town hall concerning the new railway service.
-Weather: light rain in the morning, clearing by afternoon.",239,38,5
-IMG_040,"LOCAL NEWS FROM LONDON
+Weather: light rain in the morning, clearing by afternoon.
+Document ID: IMG_039",285,46,7
+IMG_040,"THE COUNTY HERALD — 1883
+LOCAL NEWS FROM LONDON
 MARKET REPORT
 Prices remained steady this week, with merchants reporting good trade.
 A meeting was held at the town hall concerning the new railway service.
-Weather: light rain in the morning, clearing by afternoon.",238,38,5
-IMG_041,"Parish: Saint John's Parish
+Weather: light rain in the morning, clearing by afternoon.
+Document ID: IMG_040",284,46,7
+IMG_041,"MARRIAGE REGISTER
+Parish: Saint John's Parish
 Date: 17 June 1895
 Groom: Eleanor Smith
 Bride: Eleanor Smith
 Residence: Yorkshire
 Occupation: stationer
-Witnesses: Thomas Green; Elizabeth Green",172,23,7
-IMG_042,"Parish: Saint Peter's Parish
+Witnesses: Thomas Green; Elizabeth Green
+Document ID: IMG_041",211,28,9
+IMG_042,"MARRIAGE REGISTER
+Parish: Saint Peter's Parish
 Date: 17 June 1929
 Groom: Thomas Bennett
 Bride: William Carter
 Residence: London
 Occupation: farmer
-Witnesses: Thomas Green; Elizabeth Green",169,23,7
-IMG_043,"Parish: Saint Peter's Parish
+Witnesses: Thomas Green; Elizabeth Green
+Document ID: IMG_042",208,28,9
+IMG_043,"MARRIAGE REGISTER
+Parish: Saint Peter's Parish
 Date: 17 June 1930
 Groom: Henry Davis
 Bride: Clara Johnson
 Residence: Yorkshire
 Occupation: carpenter
-Witnesses: Thomas Green; Elizabeth Green",171,23,7
-IMG_044,"Parish: Saint Peter's Parish
+Witnesses: Thomas Green; Elizabeth Green
+Document ID: IMG_043",210,28,9
+IMG_044,"MARRIAGE REGISTER
+Parish: Saint Peter's Parish
 Date: 17 June 1925
 Groom: Thomas Bennett
 Bride: George Miller
 Residence: Norfolk
 Occupation: teacher
-Witnesses: Thomas Green; Elizabeth Green",170,23,7
-IMG_045,"Parish: All Saints Parish
+Witnesses: Thomas Green; Elizabeth Green
+Document ID: IMG_044",209,28,9
+IMG_045,"MARRIAGE REGISTER
+Parish: All Saints Parish
 Date: 17 June 1928
 Groom: Edward Harris
 Bride: Arthur Wilson
 Residence: Devon
 Occupation: stationer
-Witnesses: Thomas Green; Elizabeth Green",166,23,7
-IMG_046,"Parish: Saint Mary's Parish
+Witnesses: Thomas Green; Elizabeth Green
+Document ID: IMG_045",205,28,9
+IMG_046,"MARRIAGE REGISTER
+Parish: Saint Mary's Parish
 Date: 17 June 1915
 Groom: William Carter
 Bride: Eleanor Smith
 Residence: Lancashire
 Occupation: clerk
-Witnesses: Thomas Green; Elizabeth Green",170,23,7
-IMG_047,"Parish: Saint Peter's Parish
+Witnesses: Thomas Green; Elizabeth Green
+Document ID: IMG_046",209,28,9
+IMG_047,"MARRIAGE REGISTER
+Parish: Saint Peter's Parish
 Date: 17 June 1894
 Groom: Clara Johnson
 Bride: Arthur Wilson
 Residence: Leeds
 Occupation: printer
-Witnesses: Thomas Green; Elizabeth Green",167,23,7
-IMG_048,"Parish: Saint Peter's Parish
+Witnesses: Thomas Green; Elizabeth Green
+Document ID: IMG_047",206,28,9
+IMG_048,"MARRIAGE REGISTER
+Parish: Saint Peter's Parish
 Date: 17 June 1887
 Groom: Eleanor Smith
 Bride: Thomas Bennett
 Residence: Kent
 Occupation: farmer
-Witnesses: Thomas Green; Elizabeth Green",166,23,7
-IMG_049,"Parish: Saint John's Parish
+Witnesses: Thomas Green; Elizabeth Green
+Document ID: IMG_048",205,28,9
+IMG_049,"MARRIAGE REGISTER
+Parish: Saint John's Parish
 Date: 17 June 1891
 Groom: George Miller
 Bride: George Miller
 Residence: Yorkshire
 Occupation: baker
-Witnesses: Thomas Green; Elizabeth Green",168,23,7
-IMG_050,"Parish: Holy Trinity Parish
+Witnesses: Thomas Green; Elizabeth Green
+Document ID: IMG_049",207,28,9
+IMG_050,"MARRIAGE REGISTER
+Parish: Holy Trinity Parish
 Date: 17 June 1908
 Groom: Arthur Wilson
 Bride: Edward Harris
 Residence: Manchester
 Occupation: merchant
-Witnesses: Thomas Green; Elizabeth Green",172,23,7
-IMG_051,"Parish: All Saints Parish
+Witnesses: Thomas Green; Elizabeth Green
+Document ID: IMG_050",211,28,9
+IMG_051,"MARRIAGE REGISTER
+Parish: All Saints Parish
 Date: 17 June 1885
 Groom: Eleanor Smith
 Bride: Henry Davis
 Residence: Bristol
 Occupation: baker
-Witnesses: Thomas Green; Elizabeth Green",162,23,7
-IMG_052,"Parish: Saint John's Parish
+Witnesses: Thomas Green; Elizabeth Green
+Document ID: IMG_051",201,28,9
+IMG_052,"MARRIAGE REGISTER
+Parish: Saint John's Parish
 Date: 17 June 1883
 Groom: Henry Davis
 Bride: George Miller
 Residence: Bristol
 Occupation: clerk
-Witnesses: Thomas Green; Elizabeth Green",164,23,7
-IMG_053,"Parish: Holy Trinity Parish
+Witnesses: Thomas Green; Elizabeth Green
+Document ID: IMG_052",203,28,9
+IMG_053,"MARRIAGE REGISTER
+Parish: Holy Trinity Parish
 Date: 17 June 1898
 Groom: William Carter
 Bride: Edward Harris
 Residence: Leeds
 Occupation: printer
-Witnesses: Thomas Green; Elizabeth Green",167,23,7
-IMG_054,"Parish: Saint Peter's Parish
+Witnesses: Thomas Green; Elizabeth Green
+Document ID: IMG_053",206,28,9
+IMG_054,"MARRIAGE REGISTER
+Parish: Saint Peter's Parish
 Date: 17 June 1883
 Groom: Thomas Bennett
 Bride: George Miller
 Residence: London
 Occupation: stationer
-Witnesses: Thomas Green; Elizabeth Green",171,23,7
-IMG_055,"Parish: Saint Mary's Parish
+Witnesses: Thomas Green; Elizabeth Green
+Document ID: IMG_054",210,28,9
+IMG_055,"MARRIAGE REGISTER
+Parish: Saint Mary's Parish
 Date: 17 June 1907
 Groom: Arthur Wilson
 Bride: Margaret Lewis
 Residence: Devon
 Occupation: printer
-Witnesses: Thomas Green; Elizabeth Green",167,23,7
-IMG_056,"NORFOLK DISTRICT
+Witnesses: Thomas Green; Elizabeth Green
+Document ID: IMG_055",206,28,9
+IMG_056,"COMMERCIAL DIRECTORY 1922
+NORFOLK DISTRICT
 Henry Davis — blacksmith, High Street, No. 14
 James Brown — stationer, Market Road, No. 8
 Elizabeth Clark — dressmaker, Church Lane, No. 21
-Entries are arranged alphabetically by surname.",204,32,5
-IMG_057,"LANCASHIRE DISTRICT
+Entries are arranged alphabetically by surname.
+Document ID: IMG_056",251,38,7
+IMG_057,"COMMERCIAL DIRECTORY 1929
+LANCASHIRE DISTRICT
 Clara Johnson — merchant, High Street, No. 14
 James Brown — stationer, Market Road, No. 8
 Elizabeth Clark — dressmaker, Church Lane, No. 21
-Entries are arranged alphabetically by surname.",207,32,5
-IMG_058,"LEEDS DISTRICT
+Entries are arranged alphabetically by surname.
+Document ID: IMG_057",254,38,7
+IMG_058,"COMMERCIAL DIRECTORY 1897
+LEEDS DISTRICT
 William Carter — baker, High Street, No. 14
 James Brown — stationer, Market Road, No. 8
 Elizabeth Clark — dressmaker, Church Lane, No. 21
-Entries are arranged alphabetically by surname.",200,32,5
-IMG_059,"DEVON DISTRICT
+Entries are arranged alphabetically by surname.
+Document ID: IMG_058",247,38,7
+IMG_059,"COMMERCIAL DIRECTORY 1885
+DEVON DISTRICT
 William Carter — clerk, High Street, No. 14
 James Brown — stationer, Market Road, No. 8
 Elizabeth Clark — dressmaker, Church Lane, No. 21
-Entries are arranged alphabetically by surname.",200,32,5
-IMG_060,"LANCASHIRE DISTRICT
+Entries are arranged alphabetically by surname.
+Document ID: IMG_059",247,38,7
+IMG_060,"COMMERCIAL DIRECTORY 1915
+LANCASHIRE DISTRICT
 George Miller — printer, High Street, No. 14
 James Brown — stationer, Market Road, No. 8
 Elizabeth Clark — dressmaker, Church Lane, No. 21
-Entries are arranged alphabetically by surname.",206,32,5
-IMG_061,"BRISTOL DISTRICT
+Entries are arranged alphabetically by surname.
+Document ID: IMG_060",253,38,7
+IMG_061,"COMMERCIAL DIRECTORY 1926
+BRISTOL DISTRICT
 Thomas Bennett — printer, High Street, No. 14
 James Brown — stationer, Market Road, No. 8
 Elizabeth Clark — dressmaker, Church Lane, No. 21
-Entries are arranged alphabetically by surname.",204,32,5
-IMG_062,"DURHAM DISTRICT
+Entries are arranged alphabetically by surname.
+Document ID: IMG_061",251,38,7
+IMG_062,"COMMERCIAL DIRECTORY 1935
+DURHAM DISTRICT
 Florence Brown — carpenter, High Street, No. 14
 James Brown — stationer, Market Road, No. 8
 Elizabeth Clark — dressmaker, Church Lane, No. 21
-Entries are arranged alphabetically by surname.",205,32,5
-IMG_063,"YORKSHIRE DISTRICT
+Entries are arranged alphabetically by surname.
+Document ID: IMG_062",252,38,7
+IMG_063,"COMMERCIAL DIRECTORY 1882
+YORKSHIRE DISTRICT
 Clara Johnson — carpenter, High Street, No. 14
 James Brown — stationer, Market Road, No. 8
 Elizabeth Clark — dressmaker, Church Lane, No. 21
-Entries are arranged alphabetically by surname.",207,32,5
-IMG_064,"BRISTOL DISTRICT
+Entries are arranged alphabetically by surname.
+Document ID: IMG_063",254,38,7
+IMG_064,"COMMERCIAL DIRECTORY 1910
+BRISTOL DISTRICT
 Edward Harris — baker, High Street, No. 14
 James Brown — stationer, Market Road, No. 8
 Elizabeth Clark — dressmaker, Church Lane, No. 21
-Entries are arranged alphabetically by surname.",201,32,5
-IMG_065,"KENT DISTRICT
+Entries are arranged alphabetically by surname.
+Document ID: IMG_064",248,38,7
+IMG_065,"COMMERCIAL DIRECTORY 1884
+KENT DISTRICT
 Margaret Lewis — baker, High Street, No. 14
 James Brown — stationer, Market Road, No. 8
 Elizabeth Clark — dressmaker, Church Lane, No. 21
-Entries are arranged alphabetically by surname.",199,32,5
-IMG_066,"DURHAM DISTRICT
+Entries are arranged alphabetically by surname.
+Document ID: IMG_065",246,38,7
+IMG_066,"COMMERCIAL DIRECTORY 1902
+DURHAM DISTRICT
 Margaret Lewis — teacher, High Street, No. 14
 James Brown — stationer, Market Road, No. 8
 Elizabeth Clark — dressmaker, Church Lane, No. 21
-Entries are arranged alphabetically by surname.",203,32,5
-IMG_067,"MANCHESTER DISTRICT
+Entries are arranged alphabetically by surname.
+Document ID: IMG_066",250,38,7
+IMG_067,"COMMERCIAL DIRECTORY 1911
+MANCHESTER DISTRICT
 Henry Davis — teacher, High Street, No. 14
 James Brown — stationer, Market Road, No. 8
 Elizabeth Clark — dressmaker, Church Lane, No. 21
-Entries are arranged alphabetically by surname.",204,32,5
-IMG_068,"YORKSHIRE DISTRICT
+Entries are arranged alphabetically by surname.
+Document ID: IMG_067",251,38,7
+IMG_068,"COMMERCIAL DIRECTORY 1902
+YORKSHIRE DISTRICT
 George Miller — blacksmith, High Street, No. 14
 James Brown — stationer, Market Road, No. 8
 Elizabeth Clark — dressmaker, Church Lane, No. 21
-Entries are arranged alphabetically by surname.",208,32,5
-IMG_069,"LEEDS DISTRICT
+Entries are arranged alphabetically by surname.
+Document ID: IMG_068",255,38,7
+IMG_069,"COMMERCIAL DIRECTORY 1916
+LEEDS DISTRICT
 George Miller — tailor, High Street, No. 14
 James Brown — stationer, Market Road, No. 8
 Elizabeth Clark — dressmaker, Church Lane, No. 21
-Entries are arranged alphabetically by surname.",200,32,5
-IMG_070,"YORKSHIRE DISTRICT
+Entries are arranged alphabetically by surname.
+Document ID: IMG_069",247,38,7
+IMG_070,"COMMERCIAL DIRECTORY 1894
+YORKSHIRE DISTRICT
 Henry Davis — stationer, High Street, No. 14
 James Brown — stationer, Market Road, No. 8
 Elizabeth Clark — dressmaker, Church Lane, No. 21
-Entries are arranged alphabetically by surname.",205,32,5
-IMG_071,"Margaret Lewis
+Entries are arranged alphabetically by surname.
+Document ID: IMG_070",252,38,7
+IMG_071,"IN MEMORIAM
+Margaret Lewis
 Died at Yorkshire, 3 March 1920
 Aged 67 years.
 He was known throughout the parish for his honest work as a printer.
-Peace be with him.",149,28,5
-IMG_072,"Florence Brown
+Peace be with him.
+Document ID: IMG_071",182,33,7
+IMG_072,"IN MEMORIAM
+Florence Brown
 Died at Kent, 3 March 1930
 Aged 67 years.
 He was known throughout the parish for his honest work as a baker.
-Peace be with him.",142,28,5
-IMG_073,"Eleanor Smith
+Peace be with him.
+Document ID: IMG_072",175,33,7
+IMG_073,"IN MEMORIAM
+Eleanor Smith
 Died at Norfolk, 3 March 1889
 Aged 67 years.
 He was known throughout the parish for his honest work as a baker.
-Peace be with him.",144,28,5
-IMG_074,"Arthur Wilson
+Peace be with him.
+Document ID: IMG_073",177,33,7
+IMG_074,"IN MEMORIAM
+Arthur Wilson
 Died at Bristol, 3 March 1932
 Aged 67 years.
 He was known throughout the parish for his honest work as a clerk.
-Peace be with him.",144,28,5
-IMG_075,"Thomas Bennett
+Peace be with him.
+Document ID: IMG_074",177,33,7
+IMG_075,"IN MEMORIAM
+Thomas Bennett
 Died at Yorkshire, 3 March 1887
 Aged 67 years.
 He was known throughout the parish for his honest work as a merchant.
-Peace be with him.",150,28,5
-IMG_076,"Thomas Bennett
+Peace be with him.
+Document ID: IMG_075",183,33,7
+IMG_076,"IN MEMORIAM
+Thomas Bennett
 Died at Norfolk, 3 March 1917
 Aged 67 years.
 He was known throughout the parish for his honest work as a farmer.
-Peace be with him.",146,28,5
-IMG_077,"Arthur Wilson
+Peace be with him.
+Document ID: IMG_076",179,33,7
+IMG_077,"IN MEMORIAM
+Arthur Wilson
 Died at Lancashire, 3 March 1923
 Aged 67 years.
 He was known throughout the parish for his honest work as a carpenter.
-Peace be with him.",151,28,5
-IMG_078,"Arthur Wilson
+Peace be with him.
+Document ID: IMG_077",184,33,7
+IMG_078,"IN MEMORIAM
+Arthur Wilson
 Died at Leeds, 3 March 1930
 Aged 67 years.
 He was known throughout the parish for his honest work as a teacher.
-Peace be with him.",144,28,5
-IMG_079,"George Miller
+Peace be with him.
+Document ID: IMG_078",177,33,7
+IMG_079,"IN MEMORIAM
+George Miller
 Died at Manchester, 3 March 1880
 Aged 67 years.
 He was known throughout the parish for his honest work as a teacher.
-Peace be with him.",149,28,5
-IMG_080,"George Miller
+Peace be with him.
+Document ID: IMG_079",182,33,7
+IMG_080,"IN MEMORIAM
+George Miller
 Died at Yorkshire, 3 March 1891
 Aged 67 years.
 He was known throughout the parish for his honest work as a teacher.
-Peace be with him.",148,28,5
-IMG_081,"This is to certify that Eleanor Smith
+Peace be with him.
+Document ID: IMG_080",181,33,7
+IMG_081,"CERTIFICATE OF RECORD
+This is to certify that Eleanor Smith
 was recorded in the parish of Devon
 on the 22nd day of August 1912.
 Occupation: merchant
-Entered in the official register.",160,28,5
-IMG_082,"This is to certify that Margaret Lewis
+Entered in the official register.
+Document ID: IMG_081",203,34,7
+IMG_082,"CERTIFICATE OF RECORD
+This is to certify that Margaret Lewis
 was recorded in the parish of Kent
 on the 22nd day of August 1884.
 Occupation: stationer
-Entered in the official register.",161,28,5
-IMG_083,"This is to certify that Edward Harris
+Entered in the official register.
+Document ID: IMG_082",204,34,7
+IMG_083,"CERTIFICATE OF RECORD
+This is to certify that Edward Harris
 was recorded in the parish of Lancashire
 on the 22nd day of August 1898.
 Occupation: stationer
-Entered in the official register.",166,28,5
-IMG_084,"This is to certify that Margaret Lewis
+Entered in the official register.
+Document ID: IMG_083",209,34,7
+IMG_084,"CERTIFICATE OF RECORD
+This is to certify that Margaret Lewis
 was recorded in the parish of Kent
 on the 22nd day of August 1906.
 Occupation: tailor
-Entered in the official register.",158,28,5
-IMG_085,"This is to certify that Arthur Wilson
+Entered in the official register.
+Document ID: IMG_084",201,34,7
+IMG_085,"CERTIFICATE OF RECORD
+This is to certify that Arthur Wilson
 was recorded in the parish of Manchester
 on the 22nd day of August 1927.
 Occupation: baker
-Entered in the official register.",162,28,5
-IMG_086,"This is to certify that Arthur Wilson
+Entered in the official register.
+Document ID: IMG_085",205,34,7
+IMG_086,"CERTIFICATE OF RECORD
+This is to certify that Arthur Wilson
 was recorded in the parish of Bristol
 on the 22nd day of August 1899.
 Occupation: stationer
-Entered in the official register.",163,28,5
-IMG_087,"This is to certify that Eleanor Smith
+Entered in the official register.
+Document ID: IMG_086",206,34,7
+IMG_087,"CERTIFICATE OF RECORD
+This is to certify that Eleanor Smith
 was recorded in the parish of Norfolk
 on the 22nd day of August 1916.
 Occupation: baker
-Entered in the official register.",159,28,5
-IMG_088,"This is to certify that Thomas Bennett
+Entered in the official register.
+Document ID: IMG_087",202,34,7
+IMG_088,"CERTIFICATE OF RECORD
+This is to certify that Thomas Bennett
 was recorded in the parish of Manchester
 on the 22nd day of August 1880.
 Occupation: stationer
-Entered in the official register.",167,28,5
-IMG_089,"This is to certify that George Miller
+Entered in the official register.
+Document ID: IMG_088",210,34,7
+IMG_089,"CERTIFICATE OF RECORD
+This is to certify that George Miller
 was recorded in the parish of Kent
 on the 22nd day of August 1903.
 Occupation: stationer
-Entered in the official register.",160,28,5
-IMG_090,"This is to certify that Henry Davis
+Entered in the official register.
+Document ID: IMG_089",203,34,7
+IMG_090,"CERTIFICATE OF RECORD
+This is to certify that Henry Davis
 was recorded in the parish of Durham
 on the 22nd day of August 1911.
 Occupation: tailor
-Entered in the official register.",157,28,5
-IMG_091,"Notice is hereby given to residents of Norfolk.
+Entered in the official register.
+Document ID: IMG_090",200,34,7
+IMG_091,"PUBLIC NOTICE — 1928
+Notice is hereby given to residents of Norfolk.
 A public meeting will be held at the parish hall.
 All persons concerned are requested to attend.
-Signed: Eleanor Smith, Parish Clerk",180,30,4
-IMG_092,"Notice is hereby given to residents of Manchester.
+Signed: Eleanor Smith, Parish Clerk
+Document ID: IMG_091",222,37,6
+IMG_092,"PUBLIC NOTICE — 1884
+Notice is hereby given to residents of Manchester.
 A public meeting will be held at the parish hall.
 All persons concerned are requested to attend.
-Signed: Clara Johnson, Parish Clerk",183,30,4
-IMG_093,"Notice is hereby given to residents of Devon.
+Signed: Clara Johnson, Parish Clerk
+Document ID: IMG_092",225,37,6
+IMG_093,"PUBLIC NOTICE — 1881
+Notice is hereby given to residents of Devon.
 A public meeting will be held at the parish hall.
 All persons concerned are requested to attend.
-Signed: Arthur Wilson, Parish Clerk",178,30,4
-IMG_094,"Notice is hereby given to residents of Bristol.
+Signed: Arthur Wilson, Parish Clerk
+Document ID: IMG_093",220,37,6
+IMG_094,"PUBLIC NOTICE — 1935
+Notice is hereby given to residents of Bristol.
 A public meeting will be held at the parish hall.
 All persons concerned are requested to attend.
-Signed: Clara Johnson, Parish Clerk",180,30,4
-IMG_095,"Notice is hereby given to residents of Bristol.
+Signed: Clara Johnson, Parish Clerk
+Document ID: IMG_094",222,37,6
+IMG_095,"PUBLIC NOTICE — 1886
+Notice is hereby given to residents of Bristol.
 A public meeting will be held at the parish hall.
 All persons concerned are requested to attend.
-Signed: Florence Brown, Parish Clerk",181,30,4
-IMG_096,"Notice is hereby given to residents of Manchester.
+Signed: Florence Brown, Parish Clerk
+Document ID: IMG_095",223,37,6
+IMG_096,"PUBLIC NOTICE — 1921
+Notice is hereby given to residents of Manchester.
 A public meeting will be held at the parish hall.
 All persons concerned are requested to attend.
-Signed: Margaret Lewis, Parish Clerk",184,30,4
-IMG_097,"Notice is hereby given to residents of Durham.
+Signed: Margaret Lewis, Parish Clerk
+Document ID: IMG_096",226,37,6
+IMG_097,"PUBLIC NOTICE — 1912
+Notice is hereby given to residents of Durham.
 A public meeting will be held at the parish hall.
 All persons concerned are requested to attend.
-Signed: Margaret Lewis, Parish Clerk",180,30,4
-IMG_098,"Notice is hereby given to residents of London.
+Signed: Margaret Lewis, Parish Clerk
+Document ID: IMG_097",222,37,6
+IMG_098,"PUBLIC NOTICE — 1917
+Notice is hereby given to residents of London.
 A public meeting will be held at the parish hall.
 All persons concerned are requested to attend.
-Signed: Arthur Wilson, Parish Clerk",179,30,4
-IMG_099,"Notice is hereby given to residents of Durham.
+Signed: Arthur Wilson, Parish Clerk
+Document ID: IMG_098",221,37,6
+IMG_099,"PUBLIC NOTICE — 1912
+Notice is hereby given to residents of Durham.
 A public meeting will be held at the parish hall.
 All persons concerned are requested to attend.
-Signed: Henry Davis, Parish Clerk",177,30,4
-IMG_100,"Notice is hereby given to residents of Lancashire.
+Signed: Henry Davis, Parish Clerk
+Document ID: IMG_099",219,37,6
+IMG_100,"PUBLIC NOTICE — 1929
+Notice is hereby given to residents of Lancashire.
 A public meeting will be held at the parish hall.
 All persons concerned are requested to attend.
-Signed: Florence Brown, Parish Clerk",184,30,4
+Signed: Florence Brown, Parish Clerk
+Document ID: IMG_100",226,37,6

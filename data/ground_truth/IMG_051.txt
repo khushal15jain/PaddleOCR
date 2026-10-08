@@ -1,3 +1,4 @@
+MARRIAGE REGISTER
 Parish: All Saints Parish
 Date: 17 June 1885
 Groom: Eleanor Smith
@@ -5,3 +6,4 @@ Bride: Henry Davis
 Residence: Bristol
 Occupation: baker
 Witnesses: Thomas Green; Elizabeth Green
+Document ID: IMG_051

@@ -1,6 +1,56 @@
 [
   {
     "image_id": "IMG_025",
+    "word_id": "w_1_1",
+    "transcription": "THE",
+    "x_min": 390,
+    "y_min": 155,
+    "x_max": 516,
+    "y_max": 205,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_025",
+    "word_id": "w_1_2",
+    "transcription": "COUNTY",
+    "x_min": 558,
+    "y_min": 155,
+    "x_max": 811,
+    "y_max": 205,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_025",
+    "word_id": "w_1_3",
+    "transcription": "HERALD",
+    "x_min": 853,
+    "y_min": 155,
+    "x_max": 1106,
+    "y_max": 205,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_025",
+    "word_id": "w_1_4",
+    "transcription": "—",
+    "x_min": 1148,
+    "y_min": 155,
+    "x_max": 1190,
+    "y_max": 205,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_025",
+    "word_id": "w_1_5",
+    "transcription": "1902",
+    "x_min": 1232,
+    "y_min": 155,
+    "x_max": 1400,
+    "y_max": 205,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_025",
     "word_id": "w_2_1",
     "transcription": "LOCAL",
     "x_min": 180,
@@ -377,6 +427,36 @@
     "y_min": 871,
     "x_max": 1234,
     "y_max": 897,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_025",
+    "word_id": "w_7_1",
+    "transcription": "Document",
+    "x_min": 172,
+    "y_min": 2205,
+    "x_max": 305,
+    "y_max": 2242,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_025",
+    "word_id": "w_7_2",
+    "transcription": "ID:",
+    "x_min": 321,
+    "y_min": 2205,
+    "x_max": 370,
+    "y_max": 2242,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_025",
+    "word_id": "w_7_3",
+    "transcription": "IMG_025",
+    "x_min": 386,
+    "y_min": 2205,
+    "x_max": 500,
+    "y_max": 2242,
     "confidence": 1.0
   }
 ]

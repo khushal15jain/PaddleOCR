@@ -1,3 +1,4 @@
+MARRIAGE REGISTER
 Parish: Saint Peter's Parish
 Date: 17 June 1887
 Groom: Eleanor Smith
@@ -5,3 +6,4 @@ Bride: Thomas Bennett
 Residence: Kent
 Occupation: farmer
 Witnesses: Thomas Green; Elizabeth Green
+Document ID: IMG_048

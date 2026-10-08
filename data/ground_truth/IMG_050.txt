@@ -1,3 +1,4 @@
+MARRIAGE REGISTER
 Parish: Holy Trinity Parish
 Date: 17 June 1908
 Groom: Arthur Wilson
@@ -5,3 +6,4 @@ Bride: Edward Harris
 Residence: Manchester
 Occupation: merchant
 Witnesses: Thomas Green; Elizabeth Green
+Document ID: IMG_050

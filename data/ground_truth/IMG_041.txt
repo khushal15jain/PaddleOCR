@@ -1,3 +1,4 @@
+MARRIAGE REGISTER
 Parish: Saint John's Parish
 Date: 17 June 1895
 Groom: Eleanor Smith
@@ -5,3 +6,4 @@ Bride: Eleanor Smith
 Residence: Yorkshire
 Occupation: stationer
 Witnesses: Thomas Green; Elizabeth Green
+Document ID: IMG_041

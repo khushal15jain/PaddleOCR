@@ -1,6 +1,26 @@
 [
   {
     "image_id": "IMG_047",
+    "word_id": "w_1_1",
+    "transcription": "MARRIAGE",
+    "x_min": 532,
+    "y_min": 160,
+    "x_max": 876,
+    "y_max": 202,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_047",
+    "word_id": "w_1_2",
+    "transcription": "REGISTER",
+    "x_min": 919,
+    "y_min": 160,
+    "x_max": 1263,
+    "y_max": 202,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_047",
     "word_id": "w_2_1",
     "transcription": "Parish:",
     "x_min": 180,
@@ -227,6 +247,36 @@
     "y_min": 1172,
     "x_max": 957,
     "y_max": 1197,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_047",
+    "word_id": "w_9_1",
+    "transcription": "Document",
+    "x_min": 172,
+    "y_min": 2205,
+    "x_max": 305,
+    "y_max": 2242,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_047",
+    "word_id": "w_9_2",
+    "transcription": "ID:",
+    "x_min": 321,
+    "y_min": 2205,
+    "x_max": 370,
+    "y_max": 2242,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_047",
+    "word_id": "w_9_3",
+    "transcription": "IMG_047",
+    "x_min": 386,
+    "y_min": 2205,
+    "x_max": 500,
+    "y_max": 2242,
     "confidence": 1.0
   }
 ]

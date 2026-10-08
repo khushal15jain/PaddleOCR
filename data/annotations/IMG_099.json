@@ -1,6 +1,46 @@
 [
   {
     "image_id": "IMG_099",
+    "word_id": "w_1_1",
+    "transcription": "PUBLIC",
+    "x_min": 497,
+    "y_min": 160,
+    "x_max": 737,
+    "y_max": 202,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_099",
+    "word_id": "w_1_2",
+    "transcription": "NOTICE",
+    "x_min": 777,
+    "y_min": 160,
+    "x_max": 1017,
+    "y_max": 202,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_099",
+    "word_id": "w_1_3",
+    "transcription": "—",
+    "x_min": 1057,
+    "y_min": 160,
+    "x_max": 1097,
+    "y_max": 202,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_099",
+    "word_id": "w_1_4",
+    "transcription": "1912",
+    "x_min": 1137,
+    "y_min": 160,
+    "x_max": 1297,
+    "y_max": 202,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_099",
     "word_id": "w_2_1",
     "transcription": "Notice",
     "x_min": 180,
@@ -297,6 +337,36 @@
     "y_min": 721,
     "x_max": 799,
     "y_max": 747,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_099",
+    "word_id": "w_6_1",
+    "transcription": "Document",
+    "x_min": 172,
+    "y_min": 2205,
+    "x_max": 305,
+    "y_max": 2242,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_099",
+    "word_id": "w_6_2",
+    "transcription": "ID:",
+    "x_min": 321,
+    "y_min": 2205,
+    "x_max": 370,
+    "y_max": 2242,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_099",
+    "word_id": "w_6_3",
+    "transcription": "IMG_099",
+    "x_min": 386,
+    "y_min": 2205,
+    "x_max": 500,
+    "y_max": 2242,
     "confidence": 1.0
   }
 ]

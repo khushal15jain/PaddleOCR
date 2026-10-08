@@ -1,6 +1,36 @@
 [
   {
     "image_id": "IMG_004",
+    "word_id": "w_1_1",
+    "transcription": "LETTER",
+    "x_min": 627,
+    "y_min": 157,
+    "x_max": 857,
+    "y_max": 207,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_004",
+    "word_id": "w_1_2",
+    "transcription": "NO.",
+    "x_min": 895,
+    "y_min": 157,
+    "x_max": 1010,
+    "y_max": 207,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_004",
+    "word_id": "w_1_3",
+    "transcription": "004",
+    "x_min": 1048,
+    "y_min": 157,
+    "x_max": 1163,
+    "y_max": 207,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_004",
     "word_id": "w_2_1",
     "transcription": "Dear",
     "x_min": 180,
@@ -407,6 +437,36 @@
     "y_min": 1021,
     "x_max": 462,
     "y_max": 1047,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_004",
+    "word_id": "w_8_1",
+    "transcription": "Document",
+    "x_min": 172,
+    "y_min": 2205,
+    "x_max": 305,
+    "y_max": 2242,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_004",
+    "word_id": "w_8_2",
+    "transcription": "ID:",
+    "x_min": 321,
+    "y_min": 2205,
+    "x_max": 370,
+    "y_max": 2242,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_004",
+    "word_id": "w_8_3",
+    "transcription": "IMG_004",
+    "x_min": 386,
+    "y_min": 2205,
+    "x_max": 500,
+    "y_max": 2242,
     "confidence": 1.0
   }
 ]

@@ -1,6 +1,36 @@
 [
   {
     "image_id": "IMG_085",
+    "word_id": "w_1_1",
+    "transcription": "CERTIFICATE",
+    "x_min": 465,
+    "y_min": 160,
+    "x_max": 919,
+    "y_max": 202,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_085",
+    "word_id": "w_1_2",
+    "transcription": "OF",
+    "x_min": 960,
+    "y_min": 160,
+    "x_max": 1042,
+    "y_max": 202,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_085",
+    "word_id": "w_1_3",
+    "transcription": "RECORD",
+    "x_min": 1083,
+    "y_min": 160,
+    "x_max": 1330,
+    "y_max": 202,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_085",
     "word_id": "w_2_1",
     "transcription": "This",
     "x_min": 180,
@@ -277,6 +307,36 @@
     "y_min": 871,
     "x_max": 741,
     "y_max": 904,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_085",
+    "word_id": "w_7_1",
+    "transcription": "Document",
+    "x_min": 172,
+    "y_min": 2205,
+    "x_max": 305,
+    "y_max": 2242,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_085",
+    "word_id": "w_7_2",
+    "transcription": "ID:",
+    "x_min": 321,
+    "y_min": 2205,
+    "x_max": 370,
+    "y_max": 2242,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "IMG_085",
+    "word_id": "w_7_3",
+    "transcription": "IMG_085",
+    "x_min": 386,
+    "y_min": 2205,
+    "x_max": 500,
+    "y_max": 2242,
     "confidence": 1.0
   }
 ]
