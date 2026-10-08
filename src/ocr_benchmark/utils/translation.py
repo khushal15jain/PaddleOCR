@@ -2,11 +2,9 @@ import os
 import logging
 import concurrent.futures
 
-# Set OCR_BENCHMARK_SKIP_TRANSLATION=1 to skip network calls entirely (useful
-# offline, in CI, or in sandboxes without access to Google's translate
-# endpoint). Every OCR result still gets a translated_text_en field so
-# downstream code never has to special-case it.
-SKIP_TRANSLATION = os.environ.get("OCR_BENCHMARK_SKIP_TRANSLATION", "0") == "1"
+# Set OCR_BENCHMARK_SKIP_TRANSLATION=0 to enable network translation calls.
+# Defaults to 1 (disabled) so network calls never slow or break a run.
+SKIP_TRANSLATION = os.environ.get("OCR_BENCHMARK_SKIP_TRANSLATION", "1") != "0"
 
 
 def _translate_chunk(translator, chunk):

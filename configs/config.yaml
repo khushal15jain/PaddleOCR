@@ -1,28 +1,55 @@
 dataset:
+  name: "synthetic_en"
+  language: "en"
   image_dir: data/raw/images
   ground_truth_dir: data/ground_truth
   annotations_dir: data/annotations
   metadata_file: data/metadata.csv
+  documents_file: data/documents.csv
+
+datasets:
+  synthetic_en:
+    name: "synthetic_en"
+    language: "en"
+    image_dir: data/raw/images
+    ground_truth_dir: data/ground_truth
+    annotations_dir: data/annotations
+    metadata_file: data/metadata.csv
+    documents_file: data/documents.csv
+  historical_fr:
+    name: "historical_fr"
+    language: "fr"
+    image_dir: data/raw/historical_fr/images
+    ground_truth_dir: data/raw/historical_fr/ground_truth
+    annotations_dir: data/raw/historical_fr/annotations
+    metadata_file: data/raw/historical_fr/metadata.csv
 
 engines:
   - paddleocr
   - tesseract
+  - tesseract_preprocessed
 
 paddleocr:
-  lang: "fr"
-  # PaddleOCR >=3.0 replaced the legacy .ocr(cls=...) call with .predict().
-  # These two flags keep the pipeline fast on CPU-only machines; set both to
-  # true if your scans are rotated/skewed.
+  lang: "en"
   use_doc_orientation_classify: false
   use_doc_unwarping: false
   use_textline_orientation: false
 
 tesseract:
-  language: "fra"
+  language: "eng"
   psm: 3
   oem: 1
+  preprocess: "none"
+
+tesseract_preprocessed:
+  language: "eng"
+  psm: 3
+  oem: 1
+  preprocess: "background_normalize"
 
 evaluation:
+  iou_threshold: 0.5
+  localization_error_threshold: 0.2
   modes:
     - strict
     - normalized

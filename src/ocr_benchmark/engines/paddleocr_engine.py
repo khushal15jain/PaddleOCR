@@ -3,6 +3,7 @@ import logging
 from pathlib import Path
 from typing import Dict, Any
 from .base import BaseOCREngine
+from src.ocr_benchmark.utils.translation import translate_fr_to_en
 
 try:
     from paddleocr import PaddleOCR
@@ -30,8 +31,12 @@ class PaddleRunner(BaseOCREngine):
         if PaddleOCR is None:
             raise ImportError("paddleocr is not installed.")
 
+        ds_lang = config.get("dataset", {}).get("language", "en")
+        default_lang = "en" if ds_lang == "en" else "fr"
+        self.lang = self.paddle_config.get("lang", default_lang)
+
         self.ocr = PaddleOCR(
-            lang=self.paddle_config.get("lang", "fr"),
+            lang=self.lang,
             use_doc_orientation_classify=self.paddle_config.get("use_doc_orientation_classify", False),
             use_doc_unwarping=self.paddle_config.get("use_doc_unwarping", False),
             use_textline_orientation=self.paddle_config.get("use_textline_orientation", False),
@@ -88,7 +93,6 @@ class PaddleRunner(BaseOCREngine):
             avg_conf = sum(confidences) / len(confidences) if confidences else 0.0
             text_fr = " ".join(full_text)
 
-            from src.ocr_benchmark.utils.translation import translate_fr_to_en
             text_en = translate_fr_to_en(text_fr)
 
             return {
