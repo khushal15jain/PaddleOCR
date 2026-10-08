@@ -1,8 +1,26 @@
+# Environments and dependencies
 .venv/
+node_modules/
+*/node_modules/
+
+# Build artifacts
+dist/
+*/dist/
 outputs/
+*.egg-info/
+
+# Python cache
 __pycache__/
 *.pyc
-data/ground_truth_json/
-.DS_Store
+*.pyo
 .pytest_cache/
-*.egg-info/
+
+# Model weights and Paddle cache
+.paddlex/
+*.pdiparams
+*.pdiparams.info
+*.pdmodel
+
+# OS and data
+.DS_Store
+data/ground_truth_json/

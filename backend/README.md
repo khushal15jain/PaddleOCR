@@ -1,8 +1,8 @@
-# OCR Benchmark Console (frontend only)
+# Backend
 
-    npm install
-    npm run dev
+    pip install -r backend/requirements.txt
+    uvicorn backend.main:app --port 8000      # run from the repo root
 
-Open the URL Vite prints (usually http://localhost:5173).
-Optional: copy scans to public/images/IMG_001.jpg ... to preview them.
-All sample data is in src/data/mockData.js. No backend, no changes to your Python code.
+Defaults (override with env vars OCR_REPO_ROOT, OCR_IMAGES_DIR, OCR_GT_DIR, OCR_GT_EXT, OCR_OUTPUT_DIR):
+images `data/raw/images`, ground truth `data/ground_truth/<id>.txt`, outputs `outputs/`.
+Record edits (type, notes, flags) are saved to backend/records.json.

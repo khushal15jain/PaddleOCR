@@ -85,6 +85,8 @@ pip install -r requirements.txt
 # or: pip install -e .
 ```
 
+PaddleOCR models download automatically on first run. If you want a custom cache location for model weights, set the `PADDLE_PDX_CACHE_HOME` environment variable (e.g. `export PADDLE_PDX_CACHE_HOME="/path/to/cache"`).
+
 Tesseract's French language pack is bundled in `tessdata/fra.traineddata`
 (the engine points `--tessdata-dir` there directly, so it works even if your
 system Tesseract only has `eng`/`osd` installed).

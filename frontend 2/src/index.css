@@ -1,5 +1,0 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-body { @apply bg-slate-100 text-slate-800 antialiased dark:bg-slate-950 dark:text-slate-200; }
-:focus-visible { outline: 2px solid #0e7c86; outline-offset: 2px; }
