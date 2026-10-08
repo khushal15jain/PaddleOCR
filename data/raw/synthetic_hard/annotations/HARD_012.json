@@ -1,0 +1,62 @@
+[
+  {
+    "image_id": "HARD_012",
+    "word_id": "w_1_0",
+    "transcription": "HISTORICAL",
+    "x_min": 100,
+    "y_min": 80,
+    "x_max": 200,
+    "y_max": 120,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "HARD_012",
+    "word_id": "w_1_1",
+    "transcription": "ARCHIVE",
+    "x_min": 100,
+    "y_min": 80,
+    "x_max": 200,
+    "y_max": 120,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "HARD_012",
+    "word_id": "w_1_2",
+    "transcription": "DISPATCH",
+    "x_min": 100,
+    "y_min": 80,
+    "x_max": 200,
+    "y_max": 120,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "HARD_012",
+    "word_id": "w_1_3",
+    "transcription": "—",
+    "x_min": 100,
+    "y_min": 80,
+    "x_max": 200,
+    "y_max": 120,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "HARD_012",
+    "word_id": "w_1_4",
+    "transcription": "NO.",
+    "x_min": 100,
+    "y_min": 80,
+    "x_max": 200,
+    "y_max": 120,
+    "confidence": 1.0
+  },
+  {
+    "image_id": "HARD_012",
+    "word_id": "w_1_5",
+    "transcription": "012",
+    "x_min": 100,
+    "y_min": 80,
+    "x_max": 200,
+    "y_max": 120,
+    "confidence": 1.0
+  }
+]

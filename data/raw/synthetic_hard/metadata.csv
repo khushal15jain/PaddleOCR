@@ -1,0 +1,16 @@
+image_id,document_type,degradation_type,width,height,ground_truth_available
+HARD_001,archive_record,severe_rotation,1200,1600,True
+HARD_002,archive_record,cylindrical_warp,1200,1600,True
+HARD_003,archive_record,heavy_gaussian_blur,1200,1600,True
+HARD_004,archive_record,script_handwriting,1200,1600,True
+HARD_005,archive_record,multi_column_narrow,1200,1600,True
+HARD_006,archive_record,severe_rotation,1200,1600,True
+HARD_007,archive_record,cylindrical_warp,1200,1600,True
+HARD_008,archive_record,heavy_gaussian_blur,1200,1600,True
+HARD_009,archive_record,script_handwriting,1200,1600,True
+HARD_010,archive_record,multi_column_narrow,1200,1600,True
+HARD_011,archive_record,severe_rotation,1200,1600,True
+HARD_012,archive_record,cylindrical_warp,1200,1600,True
+HARD_013,archive_record,heavy_gaussian_blur,1200,1600,True
+HARD_014,archive_record,script_handwriting,1200,1600,True
+HARD_015,archive_record,multi_column_narrow,1200,1600,True
