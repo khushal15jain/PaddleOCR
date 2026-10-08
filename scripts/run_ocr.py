@@ -64,24 +64,26 @@ def run_ocr(config: Dict[str, Any], workers: int = 1):
         logging.error(f"No images found in {image_dir} to process.")
         return
 
-    engine_items = []
+    engine_specs = []
     engine_names = config.get("engines", ["paddleocr", "tesseract"])
 
     if "paddleocr" in engine_names:
-        engine_items.append((PaddleRunner(config), out_dir / "paddleocr"))
+        engine_specs.append(("PaddleOCR", lambda: PaddleRunner(config), out_dir / "paddleocr"))
 
     if "tesseract" in engine_names:
-        engine_items.append(
+        engine_specs.append(
             (
-                TesseractRunner(config, engine_name="Tesseract", config_key="tesseract"),
+                "Tesseract",
+                lambda: TesseractRunner(config, engine_name="Tesseract", config_key="tesseract"),
                 out_dir / "tesseract",
             )
         )
 
     if "tesseract_preprocessed" in engine_names:
-        engine_items.append(
+        engine_specs.append(
             (
-                TesseractRunner(
+                "Tesseract (preprocessed)",
+                lambda: TesseractRunner(
                     config, engine_name="Tesseract (preprocessed)", config_key="tesseract_preprocessed"
                 ),
                 out_dir / "tesseract_preprocessed",
@@ -90,17 +92,18 @@ def run_ocr(config: Dict[str, Any], workers: int = 1):
 
     repeats = config.get("runtime", {}).get("repeats", 1)
 
-    for engine, output_dir in engine_items:
+    for eng_name, eng_factory, output_dir in engine_specs:
         output_dir.mkdir(parents=True, exist_ok=True)
-        logging.info(f"Starting {engine.engine_name} processing -> {output_dir}...")
 
         # Determine how many need processing
         pending = [p for p in image_files if not _is_cached_success(output_dir / f"{p.stem}.json")]
         if not pending:
-            logging.info(f"{engine.engine_name}: all {len(image_files)} images already cached.")
+            logging.info(f"{eng_name}: all {len(image_files)} images already cached.")
             continue
 
-        logging.info(f"{engine.engine_name}: processing {len(pending)}/{len(image_files)} images (workers={workers})...")
+        logging.info(f"Starting {eng_name} processing -> {output_dir}...")
+        logging.info(f"{eng_name}: processing {len(pending)}/{len(image_files)} images (workers={workers})...")
+        engine = eng_factory()
 
         if workers > 1 and engine.engine_name != "PaddleOCR":
             # Tesseract is thread-safe and benefits cleanly from ThreadPool
